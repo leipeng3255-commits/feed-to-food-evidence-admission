@@ -1,0 +1,12 @@
+study,year,doi,study_type,feed_occurrence_or_priority,animal_ration_or_burden,transfer_or_carryover,animal_food_monitoring,human_consumption,global_trade,relation_to_present_study
+MacLachlan and Bhula,2008,10.1071/EA07196,review,partial,partial,yes,partial,no,no,"Establishes transfer science; does not connect a harmonised global data chain"
+Li et al.,2022,10.1039/D1EM00454A,modelling,partial,modelled,yes,modelled,no,no,"Provides matrix biotransfer screening; does not validate feed-origin attribution with global monitoring"
+Penagos-Tabares et al.,2022,10.1016/j.envpol.2022.120626,empirical monitoring,yes,yes,no,no,no,no,"Measures broad pesticide and veterinary-drug residues in Austrian dairy-cattle diets but not matched transfer into milk"
+Li and Fantke,2023,10.1002/ps.7241,regulatory framework,partial,yes,yes,modelled,no,no,"Defines feed MRL framework for cattle and sheep; regulatory limits are not observed global exposure"
+Jia et al.,2024,10.1016/j.foodchem.2023.137974,review,no,no,partial,yes,no,no,"Reviews analytical detection in animal-derived food; does not identify feed pathways"
+Miclean et al.,2024,10.3390/su16010434,empirical case study,yes,yes,yes,yes,partial,no,"Demonstrates a local organochlorine feed-water-soil-to-milk pathway; not a multi-country trade attribution design"
+van der Fels-Klerx et al.,2024,10.1111/1541-4337.70025,prioritisation review,yes,partial,partial,partial,partial,no,"Prioritises European feed hazards; limited transfer data can yield unclassifiable hazards"
+van Leeuwen et al.,2024,10.1038/s41538-024-00265-y,perspective framework,partial,no,partial,partial,partial,no,"Formalises food-safety knowledge-gap questions for circular systems; not a residue-specific admission chain"
+Hao et al.,2024,10.1016/j.scitotenv.2024.176932,empirical burden study,yes,yes,partial,modelled,no,no,"Connects corn production and processing to livestock dietary burden; does not add matched animal-food validation"
+Huang and Li,2025,10.1186/s12302-025-01212-8,regulatory modelling,no,modelled,modelled,regulatory limits,no,no,"Harmonises pesticide MRL relations in animal foods; MRLs remain regulatory values rather than occurrence"
+Butovskaya et al.,2026,10.1016/j.foodcont.2025.111712,risk-ranking method,yes,partial,partial,yes,partial,no,"Ranks contaminants from fish feed to fillet; prioritisation is not a quantitative human exposure model"

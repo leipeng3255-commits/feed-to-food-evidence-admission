@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+00_admin/paths.yaml
+02_raw_data/
+03_intermediate/
+04_processed/
+06_outputs/
+11_research_branches/animal_food_feed_transfer/02_literature/expanded_open_search*
+11_research_branches/animal_food_feed_transfer/06_outputs/
+*.partial

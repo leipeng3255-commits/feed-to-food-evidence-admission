@@ -1,0 +1,67 @@
+module,category,matrix_code,matrix_name,sample_count,result_rows,quantified_rows
+A_PESTICIDE,animal_food_candidate,A01QV,Bovine fresh meat,1,30,0
+A_PESTICIDE,animal_food_candidate,A01RG,Pig fresh meat,1,30,0
+A_PESTICIDE,animal_food_candidate,A01RH,Sheep fresh meat,1,24,0
+A_PESTICIDE,animal_food_candidate,A01SP,Chicken fresh meat,2,60,0
+A_PESTICIDE,animal_food_candidate,A01XF,Bovine liver,2,2,2
+A_PESTICIDE,animal_food_candidate,A01XJ,Pig liver,1,1,1
+A_PESTICIDE,animal_food_candidate,A01XK,Sheep liver,1,1,1
+A_PESTICIDE,animal_food_candidate,A01XQ,Rabbit liver,1,1,1
+A_PESTICIDE,animal_food_candidate,A01XZ,Chicken liver,1,1,1
+A_PESTICIDE,animal_food_candidate,A02LV,Cow milk,1,14,0
+A_PESTICIDE,animal_food_candidate,A031G,Hen eggs,11,924,0
+A_PESTICIDE,animal_food_candidate,A033J,Honey,16,102,15
+A_PESTICIDE,animal_food_candidate,A033L,"Honey, polyfloral",11,7722,1
+A_PESTICIDE,animal_food_candidate,A03QY,Simple cereals which have to be reconstituted with milk or other appropriate nutritious liquids,6,3912,0
+B_VETERINARY_DRUG,animal_food_candidate,A01QV,Bovine fresh meat,51,1836,0
+B_VETERINARY_DRUG,animal_food_candidate,A01QX,"Cow, ox or bull fresh meat",1075,33228,5
+B_VETERINARY_DRUG,animal_food_candidate,A01QY,Calf fresh meat,513,15744,2
+B_VETERINARY_DRUG,animal_food_candidate,A01RG,Pig fresh meat,1719,82646,2
+B_VETERINARY_DRUG,animal_food_candidate,A01RH,Sheep fresh meat,2,71,0
+B_VETERINARY_DRUG,animal_food_candidate,A01RJ,Sheep (adult) fresh meat,64,3266,1
+B_VETERINARY_DRUG,animal_food_candidate,A01RK,Lamb fresh meat,9,461,0
+B_VETERINARY_DRUG,animal_food_candidate,A01RL,Goat fresh meat,28,1245,0
+B_VETERINARY_DRUG,animal_food_candidate,A01RN,Horse fresh meat,106,4289,0
+B_VETERINARY_DRUG,animal_food_candidate,A01RQ,Rabbit fresh meat,106,3565,0
+B_VETERINARY_DRUG,animal_food_candidate,A01SA,Deer fresh meat,60,1990,0
+B_VETERINARY_DRUG,animal_food_candidate,A01SH,Wild boar fresh meat,3,22,0
+B_VETERINARY_DRUG,animal_food_candidate,A01SP,Chicken fresh meat,1063,34925,10
+B_VETERINARY_DRUG,animal_food_candidate,A01SQ,Turkey fresh meat,42,2453,0
+B_VETERINARY_DRUG,animal_food_candidate,A01SR,Duck fresh meat,4,170,0
+B_VETERINARY_DRUG,animal_food_candidate,A01SX,Guinea-fowl fresh meat,2,85,0
+B_VETERINARY_DRUG,animal_food_candidate,A01SY,Partridge fresh meat,4,173,0
+B_VETERINARY_DRUG,animal_food_candidate,A01SZ,Pheasant fresh meat,1,21,1
+B_VETERINARY_DRUG,animal_food_candidate,A01XG,Beef liver,558,7145,7
+B_VETERINARY_DRUG,animal_food_candidate,A01XH,Veal liver,285,3742,0
+B_VETERINARY_DRUG,animal_food_candidate,A01XJ,Pig liver,508,7690,1
+B_VETERINARY_DRUG,animal_food_candidate,A01XK,Sheep liver,8,57,0
+B_VETERINARY_DRUG,animal_food_candidate,A01XL,Goat liver,5,45,0
+B_VETERINARY_DRUG,animal_food_candidate,A01XN,Horse liver,71,1891,0
+B_VETERINARY_DRUG,animal_food_candidate,A01XQ,Rabbit liver,2,44,0
+B_VETERINARY_DRUG,animal_food_candidate,A01XT,Deer liver,1,22,0
+B_VETERINARY_DRUG,animal_food_candidate,A01XY,Poultry liver,1,22,0
+B_VETERINARY_DRUG,animal_food_candidate,A01XZ,Chicken liver,158,3359,0
+B_VETERINARY_DRUG,animal_food_candidate,A01YA,Turkey liver,1,22,0
+B_VETERINARY_DRUG,animal_food_candidate,A01YK,Beef kidney,270,2700,0
+B_VETERINARY_DRUG,animal_food_candidate,A01YM,Pig kidney,238,2380,0
+B_VETERINARY_DRUG,animal_food_candidate,A01YN,Sheep kidney,10,100,0
+B_VETERINARY_DRUG,animal_food_candidate,A01YR,Horse kidney,45,450,0
+B_VETERINARY_DRUG,animal_food_candidate,A01YY,Deer kidney,29,290,0
+B_VETERINARY_DRUG,animal_food_candidate,A01ZM,"Bovine edible offal, non-muscle, other than liver and kidney",228,1589,1
+B_VETERINARY_DRUG,animal_food_candidate,A01ZP,"Pig edible offal, non-muscle, other than liver and kidney",116,803,0
+B_VETERINARY_DRUG,animal_food_candidate,A01ZQ,"Sheep edible offal, non-muscle, other than liver and kidney",1,7,0
+B_VETERINARY_DRUG,animal_food_candidate,A01ZT,"Horse edible offal, non-muscle, other than liver and kidney",2,14,0
+B_VETERINARY_DRUG,animal_food_candidate,A02LV,Cow milk,235,10704,8
+B_VETERINARY_DRUG,animal_food_candidate,A02MB,Goat milk,2,125,0
+B_VETERINARY_DRUG,animal_food_candidate,A02MC,Sheep milk,2,120,0
+B_VETERINARY_DRUG,animal_food_candidate,A02PJ,Milk powder,12,326,0
+B_VETERINARY_DRUG,animal_food_candidate,A02PR,Milk protein,3,98,0
+B_VETERINARY_DRUG,animal_food_candidate,A031G,Hen eggs,463,7941,1
+B_VETERINARY_DRUG,animal_food_candidate,A031J,Geese eggs,1,1,0
+B_VETERINARY_DRUG,animal_food_candidate,A031K,Quail eggs,3,78,0
+B_VETERINARY_DRUG,animal_food_candidate,A031Y,"Hen egg yolk, dried",7,87,0
+B_VETERINARY_DRUG,animal_food_candidate,A033J,Honey,153,1761,0
+B_VETERINARY_DRUG,feed_candidate,A0BT7,Growing/Fattening pigs / Complete feed (feed),33,165,0
+B_VETERINARY_DRUG,feed_candidate,A0BTH,Poultry (starter diets) / Complete feed (feed),11,55,0
+B_VETERINARY_DRUG,feed_candidate,A0BTJ,Fattening chickens (broilers) / Complete feed (feed),26,130,0
+B_VETERINARY_DRUG,feed_candidate,A0BTK,Laying hens / Complete feed (feed),5,25,0

@@ -1,0 +1,9 @@
+{
+  "source_url": "https://backend.orbit.dtu.dk/ws/portalfiles/portal/276005666/d1em00454a.pdf",
+  "raw_path": "${ANIMAL_FOOD_RAW_ROOT}/validation_sources/Li_Xiong_Fantke_2022.pdf",
+  "sha256": "7ed6578ced6ed9e65416dbb173a04408ad64cf72388cccc1c0002405589737fa",
+  "bytes": 1559194,
+  "acquired_utc": "2026-09-23T00:01:57.106919+00:00",
+  "published_checksum": null,
+  "scope": "Supplemental primary-source audit; separate from the frozen 16-file pilot manifest"
+}

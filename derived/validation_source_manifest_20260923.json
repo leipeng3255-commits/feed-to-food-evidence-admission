@@ -1,0 +1,9 @@
+{
+  "source_url": "https://www.fao.org/fileadmin/templates/agphome/documents/Pests_Pesticides/JMPR/Evaluation05/2005_Glyphosate1.pdf",
+  "raw_path": "${ANIMAL_FOOD_RAW_ROOT}/validation_sources/JMPR_2005_Glyphosate_evaluation.pdf",
+  "sha256": "df185cd2c8d53f0516bf5acaac2089b9fe0ef76aae169f056f67b3268e535fd1",
+  "bytes": 1235596,
+  "acquired_utc": "2026-09-22T23:48:53.116732+00:00",
+  "published_checksum": null,
+  "scope": "Supplemental primary-source audit; separate from the frozen 16-file pilot manifest"
+}

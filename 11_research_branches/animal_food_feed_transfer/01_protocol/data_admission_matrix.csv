@@ -1,0 +1,8 @@
+layer,required_unit,required_fields,admit,hold,exclude
+feed_occurrence,sample-analyte,"sample_id,feed_commodity,processing_form,dry_matter_basis,origin,year,analyte,result,unit,detect_flag,LOD_or_LOQ,tested_scope","complete denominator and compatible feed form","recoverable basis or definition ambiguity","positive-only or MRL-only"
+feed_use,country-commodity-year,"country,commodity,feed_quantity,unit,year,flag","verified feed allocation","species allocation unresolved","total supply treated as feed"
+ration,species-stage-country,"species,production_stage,feed_fraction,dry_matter_intake,source,year","representative or explicit scenario","bounded scenario","generic livestock ration with no species basis"
+transfer,chemical-species-tissue-dose,"chemical,residue_definition,species,tissue,dose,response,study_design,source","feeding/metabolism evidence covers burden","interpolation sensitivity","cross-species or out-of-range extrapolation"
+animal_occurrence,sample-analyte,"sample_id,species,tissue,food_form,origin,programme,year,analyte,result,unit,detect_flag,limit,tested_scope","complete programme denominator","recoverable analytical scope","violation-only or pooled tissue"
+diet,person-day-food,"person_id,day,animal_food_or_tissue,amount,body_weight,weight,year","compatible individual intake","validated stratum summary","food supply as individual intake"
+veterinary_drug,drug-species-tissue,"drug,marker_residue,species,tissue,result,limit,HBGV,source,version","marker and HBGV compatible","definition or vintage sensitivity","pesticide HBGV or MRL substituted"

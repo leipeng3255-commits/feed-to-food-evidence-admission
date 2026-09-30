@@ -1,0 +1,10 @@
+{
+  "verification_date": "2026-09-30",
+  "environment": {"python": "3.14.4", "PyYAML": "6.0.3", "platform": "macOS arm64", "dependency_install": "fresh isolated venv"},
+  "unit_tests": {"passed": 12, "failed": 0},
+  "admission_cli": "PASS; both empirical dossiers STOP_BEFORE_EXPOSURE_MODEL",
+  "raw_audit": "PASS; existing frozen archives reused read-only; outputs written to separate public_reproduction paths",
+  "frozen_aggregate_reproduction": {"pilot_matrix_summary.csv": "byte-identical", "pilot_harmonisation_summary.json": "exact after excluding local archive/mapping paths", "pilot_semantics_audit_20260930.json": "exact except generation timestamp"},
+  "privacy_check": "No raw records, third-party full text, manuscript, contact list, administrative drafts, machine-specific paths or credential patterns included",
+  "limits": "Technical reproduction only. Does not establish independent blinded review, empirical prediction validity, comprehensive novelty, author approval or journal acceptance. Other Python versions and optional live downloads were not tested."
+}

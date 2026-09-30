@@ -1,0 +1,42 @@
+{
+  "schema": "AFFT_MODULE_A_GATE_CHALLENGE_V2",
+  "protocol": "AFFT_PROTOCOL_V0_1_20260922",
+  "amendment": "validation_design_addendum_20260923.md",
+  "scope_note": "Retrospective external component challenge, not a preselected full-chain positive control. Evidence states were adjudicated with AI assistance and await independent human confirmation. validation_dataset means availability and planned independence before fitting, not prediction success. Absence of evidence is not proof of absence in the world.",
+  "cases": [
+    {
+      "id": "bounded_pilot",
+      "source": "../04_analysis/scientific_admission_report.md",
+      "gates": {
+        "feed_occurrence": "fail",
+        "feed_form": "fail",
+        "feed_use": "partial",
+        "ration": "fail",
+        "transfer": "fail",
+        "animal_occurrence": "partial",
+        "residue_definition": "fail",
+        "human_diet": "fail",
+        "validation_dataset": "fail"
+      }
+    },
+    {
+      "id": "jmpr_2005_glyphosate_cattle_kidney",
+      "source": "https://www.fao.org/4/a0209e/a0209e0d.htm",
+      "primary_source": "https://www.fao.org/fileadmin/templates/agphome/documents/Pests_Pesticides/JMPR/Evaluation05/2005_Glyphosate1.pdf",
+      "study_id": "Manning_Wilson_1987_MSL6729",
+      "transfer_evidence_presence": "confirmed",
+      "adjudication_revision": "Primary report pages 466-467/Table 124 reveal unreconciled dose and depuration inconsistencies. Historical transfer PASS is superseded by PARTIAL for quantitative use; see primary_source_reconciliation_20260923.md.",
+      "gates": {
+        "feed_occurrence": "partial",
+        "feed_form": "partial",
+        "feed_use": "partial",
+        "ration": "partial",
+        "transfer": "partial",
+        "animal_occurrence": "fail",
+        "residue_definition": "partial",
+        "human_diet": "fail",
+        "validation_dataset": "fail"
+      }
+    }
+  ]
+}

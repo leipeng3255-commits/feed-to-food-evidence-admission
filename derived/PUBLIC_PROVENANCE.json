@@ -1,0 +1,180 @@
+{
+  "generated_utc": "2026-09-30T02:23:45.550299+00:00",
+  "note": "Private filesystem strings are replaced only in public copies. Evidence timestamps are preserved. Source raw data and third-party full text are not included.",
+  "files": [
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/00_admin/source_acquisition_registry.csv",
+      "source_sha256": "04905ca29e038b9ad17a165502de7e7e6d93aa3b124aff1502bb2b68c85cb2f2",
+      "public_sha256": "b36f9ea0e5fd1655731ce76c6c0518791ac34bc3f7210b707ce959741abe88a8",
+      "transformation": "local-path redaction and UTF-8 BOM removal only"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/01_protocol/study_protocol.md",
+      "source_sha256": "37063c35a663e147ab0e714eba225b3b9e802a6f6078ef36da6de42894fa0db5",
+      "public_sha256": "37063c35a663e147ab0e714eba225b3b9e802a6f6078ef36da6de42894fa0db5",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/01_protocol/validation_design_addendum_20260923.md",
+      "source_sha256": "504c6c9c8b65e087d599aead3daa89ae36eddff205e31e9f5de76bb8ec3318b0",
+      "public_sha256": "504c6c9c8b65e087d599aead3daa89ae36eddff205e31e9f5de76bb8ec3318b0",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/01_protocol/data_admission_matrix.csv",
+      "source_sha256": "9b26243b832b09b8bbe38a3ce224bec5d264d621a0efda368423ff005b175c6c",
+      "public_sha256": "9b26243b832b09b8bbe38a3ce224bec5d264d621a0efda368423ff005b175c6c",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/01_protocol/admission_challenge_cases.json",
+      "source_sha256": "f9f9968819f25789a5127f37aeb230b51eb1da88bba17f85d9f29086266948db",
+      "public_sha256": "f9f9968819f25789a5127f37aeb230b51eb1da88bba17f85d9f29086266948db",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/02_literature/nearest_neighbour_evidence_map.csv",
+      "source_sha256": "536d39a69d3faf3b7674281cb87df046979f943159d20325b49959babd8ac0b2",
+      "public_sha256": "536d39a69d3faf3b7674281cb87df046979f943159d20325b49959babd8ac0b2",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/02_literature/transfer_validation_source_audit_20260923.csv",
+      "source_sha256": "066e2f65e50519d1a24e12eb1ef215ba5355e51382613c9dc458aa001762e473",
+      "public_sha256": "066e2f65e50519d1a24e12eb1ef215ba5355e51382613c9dc458aa001762e473",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/03_harmonisation/module_separation_and_crosswalk_spec.md",
+      "source_sha256": "b3ebcf410c0cfddfed48effebce8e82bbe4886e2b4d488d49ad005b8532d6fe8",
+      "public_sha256": "b3ebcf410c0cfddfed48effebce8e82bbe4886e2b4d488d49ad005b8532d6fe8",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/04_analysis/scientific_admission_report.md",
+      "source_sha256": "60eccaa7aa2d97c878b7931f05b16e6fc2009cee9a4896618773f3fbfe481750",
+      "public_sha256": "60eccaa7aa2d97c878b7931f05b16e6fc2009cee9a4896618773f3fbfe481750",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/04_analysis/claim_evidence_repair_map_20260928.csv",
+      "source_sha256": "b06fd19820753e6439b7cd4e3138133a021c091287244a3994395d3ce3e9e0f8",
+      "public_sha256": "b06fd19820753e6439b7cd4e3138133a021c091287244a3994395d3ce3e9e0f8",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/04_analysis/computational_audit_20260930.md",
+      "source_sha256": "0d264de715809ea371ab6fbc0eb3e9c55703af3c6452ee8b334510d13945c740",
+      "public_sha256": "0d264de715809ea371ab6fbc0eb3e9c55703af3c6452ee8b334510d13945c740",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/05_code/evaluate_admission.py",
+      "source_sha256": "e70efab4b1bfb868068b2747e3323ef1bb6ee4187c9cd79d6eb725f461259963",
+      "public_sha256": "e70efab4b1bfb868068b2747e3323ef1bb6ee4187c9cd79d6eb725f461259963",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/05_code/test_evaluate_admission.py",
+      "source_sha256": "269197c3fdcdb42d6bf313cf639d35455a2bed2d73ed90e90a179c4caabc5c09",
+      "public_sha256": "269197c3fdcdb42d6bf313cf639d35455a2bed2d73ed90e90a179c4caabc5c09",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/05_code/audit_pilot_semantics.py",
+      "source_sha256": "5a7366e5e0a45cb7dbb248ec861ed1f2071d984028f6622ef04d00f333d5c338",
+      "public_sha256": "5a7366e5e0a45cb7dbb248ec861ed1f2071d984028f6622ef04d00f333d5c338",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/05_code/test_release_audit.py",
+      "source_sha256": "18084df4a99df970d5a67bd8f83430d0506d98cdb56dc12818f83f6a36ba466b",
+      "public_sha256": "18084df4a99df970d5a67bd8f83430d0506d98cdb56dc12818f83f6a36ba466b",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/05_code/build_reproducibility_bundle.py",
+      "source_sha256": "833e317aec41d9c6c8d5e69279e374255b5c66b6668a72d326130f7035bcb7d4",
+      "public_sha256": "833e317aec41d9c6c8d5e69279e374255b5c66b6668a72d326130f7035bcb7d4",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/05_code/acquire_official_sources.py",
+      "source_sha256": "21abcdd5bdfe574f5a2b6dfc3283f5e7b5db6c6e78ecca1f8768bb4e6c28fea7",
+      "public_sha256": "21abcdd5bdfe574f5a2b6dfc3283f5e7b5db6c6e78ecca1f8768bb4e6c28fea7",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/05_code/acquire_validation_source.py",
+      "source_sha256": "b74457467118d89c5acb5ad5327e3d6bd1fb72fdbc0ddf00a5b88f9a53b0cdbb",
+      "public_sha256": "b74457467118d89c5acb5ad5327e3d6bd1fb72fdbc0ddf00a5b88f9a53b0cdbb",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/05_code/audit_acquired_sources.py",
+      "source_sha256": "4a8d1863127add4bb2ed450009209adf1e333e3467fc23a79a092c4fdab3859b",
+      "public_sha256": "4a8d1863127add4bb2ed450009209adf1e333e3467fc23a79a092c4fdab3859b",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/05_code/harmonise_pilot.py",
+      "source_sha256": "cfe811411763b16c7e5d968a58143d315073d5d9839dd62e2a305dd88fe54915",
+      "public_sha256": "cfe811411763b16c7e5d968a58143d315073d5d9839dd62e2a305dd88fe54915",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/05_code/build_gate_figure.py",
+      "source_sha256": "f0fd95b8f1d8544a9074ba55bdce3906cf5669693610079c05f5bb1664849c77",
+      "public_sha256": "f0fd95b8f1d8544a9074ba55bdce3906cf5669693610079c05f5bb1664849c77",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "11_research_branches/animal_food_feed_transfer/05_code/run_expanded_open_search.py",
+      "source_sha256": "29309b018913ec3244507558ef71f6fa22e9eba751ee6ee2d426f3494bc725d7",
+      "public_sha256": "29309b018913ec3244507558ef71f6fa22e9eba751ee6ee2d426f3494bc725d7",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "derived/pilot_matrix_summary.csv",
+      "source_sha256": "0ee8ba6cb994f992ab951977ca4d69ccdb1b9eb3d268a43131cef3950f948aff",
+      "public_sha256": "0ee8ba6cb994f992ab951977ca4d69ccdb1b9eb3d268a43131cef3950f948aff",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "derived/pilot_harmonisation_summary.json",
+      "source_sha256": "f59b41d424568cf4d858a80e0095b6e2a141ff7392d322bbc1a56f64a63eceb2",
+      "public_sha256": "608d1d4978f8e4ba7a1f5665c0d0371b97c65359d3dee3067c1144cc47571ace",
+      "transformation": "local-path redaction and UTF-8 BOM removal only"
+    },
+    {
+      "public_path": "derived/technical_feasibility_summary.json",
+      "source_sha256": "a26fbedc8e242ac8c811588aed65e67036317aaa5f4760e8de8aa496ec565520",
+      "public_sha256": "381c37ebe84e4adb1276e50855a0010190afb1986133b2a29b2ead5ce66b21ca",
+      "transformation": "local-path redaction and UTF-8 BOM removal only"
+    },
+    {
+      "public_path": "derived/raw_source_manifest.csv",
+      "source_sha256": "94da0da47e22d035fd0672090b078255f59caf6c7b9d0921a9ff8ce72703655d",
+      "public_sha256": "94da0da47e22d035fd0672090b078255f59caf6c7b9d0921a9ff8ce72703655d",
+      "transformation": "byte-identical"
+    },
+    {
+      "public_path": "derived/validation_source_manifest_20260923.json",
+      "source_sha256": "f6cff9b26a0384641c9ea2c0986696b23a1920952e2ce1e0083a7b80bce1395b",
+      "public_sha256": "c7b62fc01231fe4bb2eea0f175ca01bc24eb6d6d4531537be27b52f7503f29fe",
+      "transformation": "local-path redaction and UTF-8 BOM removal only"
+    },
+    {
+      "public_path": "derived/li2022_source_manifest_20260923.json",
+      "source_sha256": "b426219b3b1bb985e03bab94fc5b9d3d4422224e33c05efaef11c99c7a4b384f",
+      "public_sha256": "53c4699e1cf50620f20d31dc2faed9e254ecd96767e340f3afa428eb4de49ee2",
+      "transformation": "local-path redaction and UTF-8 BOM removal only"
+    },
+    {
+      "public_path": "derived/pilot_semantics_audit_20260930.json",
+      "source_sha256": "c25399126da9e6fcc96226f5ff6bd594a0f2239fc6a87fdb01cb150da45557d6",
+      "public_sha256": "c25399126da9e6fcc96226f5ff6bd594a0f2239fc6a87fdb01cb150da45557d6",
+      "transformation": "byte-identical"
+    }
+  ]
+}

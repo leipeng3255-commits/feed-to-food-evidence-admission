@@ -1,0 +1,90 @@
+{
+  "mapping_source": "${ANIMAL_FOOD_RAW_ROOT}/efsa_catalogues_2026/DCF_catalogues.zip",
+  "mapping_term_count": 31681,
+  "pesticide": {
+    "archive": "${ANIMAL_FOOD_RAW_ROOT}/efsa_pesticides_luxembourg/MOPER_ALL_DATA_SSD2_2024_LU.ZIP",
+    "all_unique_samples": 710,
+    "selected_unique_samples": {
+      "animal_food_candidate": 56
+    },
+    "selected_result_rows": {
+      "animal_food_candidate": 12824
+    },
+    "selected_quantified_rows": {
+      "animal_food_candidate": 22
+    },
+    "selected_strategy_rows": {
+      "animal_food_candidate": {
+        "ST20A": 8846,
+        "ST10A": 3978
+      }
+    },
+    "selected_strategy_samples": {
+      "animal_food_candidate": {
+        "ST20A": 47,
+        "ST10A": 9
+      }
+    },
+    "selected_evaluation_rows": {
+      "animal_food_candidate": {
+        "J002A": 12821,
+        "J003A": 3
+      }
+    },
+    "selected_qualitative_rows": {},
+    "unresolved_code_rows": 0,
+    "top_unresolved_codes": {},
+    "classification_warning": "Keyword classification is a feasibility screen, not a validated FoodEx2 tissue crosswalk."
+  },
+  "veterinary_drug": {
+    "archive": "${ANIMAL_FOOD_RAW_ROOT}/efsa_vmpr_belgium/VMPR_2024_BE.ZIP",
+    "all_unique_samples": 11573,
+    "selected_unique_samples": {
+      "animal_food_candidate": 8270,
+      "feed_candidate": 75
+    },
+    "selected_result_rows": {
+      "animal_food_candidate": 239803,
+      "feed_candidate": 375
+    },
+    "selected_quantified_rows": {
+      "animal_food_candidate": 39
+    },
+    "selected_strategy_rows": {
+      "animal_food_candidate": {
+        "ST20A": 213792,
+        "ST10A": 26011
+      },
+      "feed_candidate": {
+        "ST20A": 375
+      }
+    },
+    "selected_strategy_samples": {
+      "animal_food_candidate": {
+        "ST20A": 8087,
+        "ST10A": 183
+      },
+      "feed_candidate": {
+        "ST20A": 75
+      }
+    },
+    "selected_evaluation_rows": {
+      "animal_food_candidate": {
+        "J002A": 198314,
+        "J029A": 41482,
+        "J003A": 7
+      },
+      "feed_candidate": {
+        "J002A": 375
+      }
+    },
+    "selected_qualitative_rows": {
+      "animal_food_candidate": {
+        "NEG": 8948
+      }
+    },
+    "unresolved_code_rows": 0,
+    "top_unresolved_codes": {},
+    "classification_warning": "Keyword classification is a feasibility screen, not a validated FoodEx2 tissue crosswalk."
+  }
+}

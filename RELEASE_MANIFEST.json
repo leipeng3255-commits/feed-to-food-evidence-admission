@@ -1,0 +1,217 @@
+{
+  "generated_utc": "2026-09-30T02:23:45.611526+00:00",
+  "scope": "original scientific code/protocols and aggregate derived data; no manuscript/private administrative files",
+  "scientific_state": "BOUNDED_STOP; MODULE_B_DESCRIPTIVE_ONLY; NOT_EMPIRICALLY_VALIDATED",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 66,
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 264,
+      "sha256": "964ce10df792156e9333dc175272ff1ef27087cafb64afe1807c02ab4929f33b"
+    },
+    {
+      "path": "05_code/utilities/check_paths.py",
+      "bytes": 821,
+      "sha256": "0837964050d5fe6a7bb463315fb10dc8b8d90b94ee6ad6da6f8c2d59e6b83f69"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/00_admin/source_acquisition_registry.csv",
+      "bytes": 7621,
+      "sha256": "b36f9ea0e5fd1655731ce76c6c0518791ac34bc3f7210b707ce959741abe88a8"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/01_protocol/admission_challenge_cases.json",
+      "bytes": 1903,
+      "sha256": "f9f9968819f25789a5127f37aeb230b51eb1da88bba17f85d9f29086266948db"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/01_protocol/data_admission_matrix.csv",
+      "bytes": 1578,
+      "sha256": "9b26243b832b09b8bbe38a3ce224bec5d264d621a0efda368423ff005b175c6c"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/01_protocol/study_protocol.md",
+      "bytes": 4027,
+      "sha256": "37063c35a663e147ab0e714eba225b3b9e802a6f6078ef36da6de42894fa0db5"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/01_protocol/validation_design_addendum_20260923.md",
+      "bytes": 9769,
+      "sha256": "504c6c9c8b65e087d599aead3daa89ae36eddff205e31e9f5de76bb8ec3318b0"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/02_literature/nearest_neighbour_evidence_map.csv",
+      "bytes": 2384,
+      "sha256": "536d39a69d3faf3b7674281cb87df046979f943159d20325b49959babd8ac0b2"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/02_literature/transfer_validation_source_audit_20260923.csv",
+      "bytes": 1493,
+      "sha256": "066e2f65e50519d1a24e12eb1ef215ba5355e51382613c9dc458aa001762e473"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/03_harmonisation/module_separation_and_crosswalk_spec.md",
+      "bytes": 3422,
+      "sha256": "b3ebcf410c0cfddfed48effebce8e82bbe4886e2b4d488d49ad005b8532d6fe8"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/04_analysis/claim_evidence_repair_map_20260928.csv",
+      "bytes": 4336,
+      "sha256": "b06fd19820753e6439b7cd4e3138133a021c091287244a3994395d3ce3e9e0f8"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/04_analysis/computational_audit_20260930.md",
+      "bytes": 3762,
+      "sha256": "0d264de715809ea371ab6fbc0eb3e9c55703af3c6452ee8b334510d13945c740"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/04_analysis/scientific_admission_report.md",
+      "bytes": 7940,
+      "sha256": "60eccaa7aa2d97c878b7931f05b16e6fc2009cee9a4896618773f3fbfe481750"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/05_code/acquire_official_sources.py",
+      "bytes": 6299,
+      "sha256": "21abcdd5bdfe574f5a2b6dfc3283f5e7b5db6c6e78ecca1f8768bb4e6c28fea7"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/05_code/acquire_validation_source.py",
+      "bytes": 2692,
+      "sha256": "b74457467118d89c5acb5ad5327e3d6bd1fb72fdbc0ddf00a5b88f9a53b0cdbb"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/05_code/audit_acquired_sources.py",
+      "bytes": 9876,
+      "sha256": "4a8d1863127add4bb2ed450009209adf1e333e3467fc23a79a092c4fdab3859b"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/05_code/audit_pilot_semantics.py",
+      "bytes": 5045,
+      "sha256": "5a7366e5e0a45cb7dbb248ec861ed1f2071d984028f6622ef04d00f333d5c338"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/05_code/build_gate_figure.py",
+      "bytes": 3116,
+      "sha256": "f0fd95b8f1d8544a9074ba55bdce3906cf5669693610079c05f5bb1664849c77"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/05_code/build_reproducibility_bundle.py",
+      "bytes": 5445,
+      "sha256": "833e317aec41d9c6c8d5e69279e374255b5c66b6668a72d326130f7035bcb7d4"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/05_code/evaluate_admission.py",
+      "bytes": 3281,
+      "sha256": "e70efab4b1bfb868068b2747e3323ef1bb6ee4187c9cd79d6eb725f461259963"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/05_code/harmonise_pilot.py",
+      "bytes": 8878,
+      "sha256": "cfe811411763b16c7e5d968a58143d315073d5d9839dd62e2a305dd88fe54915"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/05_code/run_expanded_open_search.py",
+      "bytes": 7650,
+      "sha256": "29309b018913ec3244507558ef71f6fa22e9eba751ee6ee2d426f3494bc725d7"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/05_code/test_evaluate_admission.py",
+      "bytes": 4071,
+      "sha256": "269197c3fdcdb42d6bf313cf639d35455a2bed2d73ed90e90a179c4caabc5c09"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/05_code/test_release_audit.py",
+      "bytes": 1684,
+      "sha256": "18084df4a99df970d5a67bd8f83430d0506d98cdb56dc12818f83f6a36ba466b"
+    },
+    {
+      "path": "DATA_RIGHTS.md",
+      "bytes": 1764,
+      "sha256": "ef870f7d0d5ee1a2aeb1028b2a9dee5d7737679c3cb7de99d7966d34650f0d36"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1101,
+      "sha256": "224f0db3ac6342cae55f8efb70764c2d796d4178ef10cbee6c286b7ee5c64c09"
+    },
+    {
+      "path": "LICENSE-DOCUMENTATION.md",
+      "bytes": 642,
+      "sha256": "b249a41cf9df7df5fb268b4bcf795cee6d05873fed1656fb0ea4757c21f83a11"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5365,
+      "sha256": "725aaa754fa6b5f10447bbafc71c89c010b43d3f2ce478f2ff0823cf9aeb52fd"
+    },
+    {
+      "path": "RELEASE_QA.json",
+      "bytes": 1079,
+      "sha256": "ec221f163c71977fabe0473b7c0e41c93c7302aefb02d001c51c76266cff28b6"
+    },
+    {
+      "path": "derived/PUBLIC_PROVENANCE.json",
+      "bytes": 10146,
+      "sha256": "194145ff85c423f8abc406978173f229fc5ef8e5abea4831748c4a2b10936047"
+    },
+    {
+      "path": "derived/li2022_source_manifest_20260923.json",
+      "bytes": 464,
+      "sha256": "53c4699e1cf50620f20d31dc2faed9e254ecd96767e340f3afa428eb4de49ee2"
+    },
+    {
+      "path": "derived/pilot_harmonisation_summary.json",
+      "bytes": 2374,
+      "sha256": "608d1d4978f8e4ba7a1f5665c0d0371b97c65359d3dee3067c1144cc47571ace"
+    },
+    {
+      "path": "derived/pilot_matrix_summary.csv",
+      "bytes": 4996,
+      "sha256": "0ee8ba6cb994f992ab951977ca4d69ccdb1b9eb3d268a43131cef3950f948aff"
+    },
+    {
+      "path": "derived/pilot_semantics_audit_20260930.json",
+      "bytes": 9795,
+      "sha256": "c25399126da9e6fcc96226f5ff6bd594a0f2239fc6a87fdb01cb150da45557d6"
+    },
+    {
+      "path": "derived/raw_source_manifest.csv",
+      "bytes": 2694,
+      "sha256": "94da0da47e22d035fd0672090b078255f59caf6c7b9d0921a9ff8ce72703655d"
+    },
+    {
+      "path": "derived/technical_feasibility_summary.json",
+      "bytes": 12115,
+      "sha256": "381c37ebe84e4adb1276e50855a0010190afb1986133b2a29b2ead5ce66b21ca"
+    },
+    {
+      "path": "derived/validation_source_manifest_20260923.json",
+      "bytes": 513,
+      "sha256": "c7b62fc01231fe4bb2eea0f175ca01bc24eb6d6d4531537be27b52f7503f29fe"
+    },
+    {
+      "path": "requirements-core.txt",
+      "bytes": 100,
+      "sha256": "2ef7556137bc52944bc444ebcb2ed2a3a0e7b68d5d8e7afc62beb841bf5a506b"
+    },
+    {
+      "path": "requirements-figures.txt",
+      "bytes": 44,
+      "sha256": "de4e2ebfcb541dff11417cfd00046094a42393bbb12c796caf41cecb4bf80d82"
+    },
+    {
+      "path": "scripts/configure_paths.py",
+      "bytes": 1924,
+      "sha256": "5d5a768c12b64bffaf6f1d6623a6591f35880064e268df7f9c243ac41c20d34d"
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "bytes": 544,
+      "sha256": "388bed54b427694a19498a67962bf45884e6c9e129a59179e8f5ffc89561fe1b"
+    }
+  ]
+}
