@@ -1,0 +1,36 @@
+{
+  "database": "PubMed",
+  "search_date": "2026-09-22",
+  "queries": [
+    {
+      "query_id": "pesticide_transfer_review",
+      "query": "(pesticide*[Title/Abstract]) AND (feed*[Title/Abstract]) AND (\"residue transfer\"[Title/Abstract] OR \"transfer factor\"[Title/Abstract] OR biotransfer[Title/Abstract]) AND (livestock[Title/Abstract] OR milk[Title/Abstract] OR egg*[Title/Abstract] OR meat[Title/Abstract])",
+      "count": 2,
+      "returned": 2
+    },
+    {
+      "query_id": "pesticide_feed_transfer",
+      "query": "(pesticide residue*[Title/Abstract]) AND (feed[Title/Abstract] OR feedstuff*[Title/Abstract]) AND (livestock[Title/Abstract] OR cattle[Title/Abstract] OR poultry[Title/Abstract]) AND (milk[Title/Abstract] OR egg*[Title/Abstract] OR meat[Title/Abstract]) AND (transfer[Title/Abstract] OR carryover[Title/Abstract] OR \"carry-over\"[Title/Abstract])",
+      "count": 0,
+      "returned": 0
+    },
+    {
+      "query_id": "livestock_feeding_studies",
+      "query": "(pesticide*[Title/Abstract]) AND (\"feeding study\"[Title/Abstract] OR \"feeding studies\"[Title/Abstract]) AND (livestock[Title/Abstract] OR ruminant*[Title/Abstract] OR poultry[Title/Abstract])",
+      "count": 8,
+      "returned": 8
+    },
+    {
+      "query_id": "veterinary_drug_exposure",
+      "query": "(veterinary drug residue*[Title/Abstract]) AND (dietary exposure[Title/Abstract] OR intake[Title/Abstract]) AND (meat[Title/Abstract] OR milk[Title/Abstract] OR egg*[Title/Abstract] OR \"animal-derived food\"[Title/Abstract])",
+      "count": 12,
+      "returned": 12
+    },
+    {
+      "query_id": "integrated_trade_attribution",
+      "query": "(pesticide*[Title/Abstract]) AND (feed trade[Title/Abstract] OR traded feed[Title/Abstract]) AND (animal food*[Title/Abstract] OR milk[Title/Abstract] OR meat[Title/Abstract] OR egg*[Title/Abstract]) AND (residue*[Title/Abstract] OR exposure[Title/Abstract])",
+      "count": 1,
+      "returned": 1
+    }
+  ]
+}

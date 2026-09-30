@@ -34,9 +34,10 @@ An explicit, existing data directory outside this checkout is required. No downl
 ```sh
 .venv/bin/python 11_research_branches/animal_food_feed_transfer/05_code/audit_acquired_sources.py
 .venv/bin/python 11_research_branches/animal_food_feed_transfer/05_code/harmonise_pilot.py
+.venv/bin/python 11_research_branches/animal_food_feed_transfer/05_code/audit_pilot_semantics.py
 ```
 
-Compare numeric/category summaries with `derived/`, allowing local path fields to differ. Live source downloads may change and cannot be described as reproducing a historical snapshot without matching its hashes. Optional acquisition (network and source terms apply):
+Compare numeric/category summaries with `derived/`, allowing local path fields or generation timestamps to differ. The diagnostic audit uses exclusive creation: it refuses to overwrite an existing report. For another run, explicitly choose a new output directory in the ignored local configuration; do not delete frozen reports. Internal `verify_branch.py` checks private project/manuscript materials and is intentionally not distributed; public file integrity is checked by `scripts/verify_release.py`. Live source downloads may change and cannot be described as reproducing a historical snapshot without matching its hashes. Optional acquisition (network and source terms apply):
 
 ```sh
 .venv/bin/python 11_research_branches/animal_food_feed_transfer/05_code/acquire_official_sources.py
@@ -47,7 +48,9 @@ Source inspection, sample counts and concentration validity are distinct checks.
 
 ## Literature and figures
 
-The curated nearest-neighbour map and search-query code are included. The open-index search requests only the first 100 records per query/database without pagination; it is not a systematic review or an exhaustive novelty search. Live search code can create fresh results in the checkout; generated discovery exports are ignored. Figure generation additionally requires `requirements-figures.txt`.
+The curated nearest-neighbour map, PubMed query script/log/23-record metadata export, and expanded-query script/log/165-candidate metadata export are included. The expanded log records a pre-threshold count of 718; the full pre-threshold records and ranking abstracts were not saved. Exact historical score recomputation is therefore unavailable. The open-index search requests only the first 100 records per query/database without pagination; it is not a systematic review or an exhaustive novelty search. No new search has been substituted for missing historical records. Live search scripts write to their original output filenames: run them only in a separate disposable checkout and preserve the dated release snapshot. Figure generation additionally requires `requirements-figures.txt`.
+
+`08_review/primary_source_reconciliation_20260923.md` and its linked completion assessment are dated scientific history supporting the companion CSV's source locators. Their historical workflow/test counts are not current release status; consult `RELEASE_QA.json` and the dated clarifications. They do not constitute human-review certification.
 
 ## Release scope and provenance
 

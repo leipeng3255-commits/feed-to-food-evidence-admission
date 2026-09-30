@@ -1,0 +1,103 @@
+{
+  "search_id": "AFFT_OPEN_DISCOVERY_20260923",
+  "executed_utc": "2026-09-22T18:37:35.304453+00:00",
+  "databases": [
+    "OpenAlex",
+    "Europe PMC"
+  ],
+  "scope_note": "Open-index discovery audit; not equivalent to subscription searches in CAB Abstracts, Embase, Scopus, or Web of Science.",
+  "queries": [
+    {
+      "database": "OpenAlex",
+      "query_id": "A_transfer",
+      "query": "pesticide residues animal feed transfer carryover milk eggs tissue livestock",
+      "reported_total": 115,
+      "retrieved": 100
+    },
+    {
+      "database": "Europe PMC",
+      "query_id": "A_transfer",
+      "query": "pesticide residues animal feed transfer carryover milk eggs tissue livestock",
+      "reported_total": 0,
+      "retrieved": 0
+    },
+    {
+      "database": "OpenAlex",
+      "query_id": "A_burden",
+      "query": "livestock dietary burden pesticide residues feed",
+      "reported_total": 3858,
+      "retrieved": 100
+    },
+    {
+      "database": "Europe PMC",
+      "query_id": "A_burden",
+      "query": "livestock dietary burden pesticide residues feed",
+      "reported_total": 834,
+      "retrieved": 100
+    },
+    {
+      "database": "OpenAlex",
+      "query_id": "A_animal_food",
+      "query": "pesticide biotransfer foods of animal origin feed",
+      "reported_total": 95,
+      "retrieved": 95
+    },
+    {
+      "database": "Europe PMC",
+      "query_id": "A_animal_food",
+      "query": "pesticide biotransfer foods of animal origin feed",
+      "reported_total": 0,
+      "retrieved": 0
+    },
+    {
+      "database": "OpenAlex",
+      "query_id": "A_trade",
+      "query": "feed trade pesticide residues livestock animal food",
+      "reported_total": 12550,
+      "retrieved": 100
+    },
+    {
+      "database": "Europe PMC",
+      "query_id": "A_trade",
+      "query": "feed trade pesticide residues livestock animal food",
+      "reported_total": 646,
+      "retrieved": 100
+    },
+    {
+      "database": "OpenAlex",
+      "query_id": "B_vmpr",
+      "query": "veterinary drug residues dietary exposure monitoring meat milk eggs",
+      "reported_total": 1913,
+      "retrieved": 100
+    },
+    {
+      "database": "Europe PMC",
+      "query_id": "B_vmpr",
+      "query": "veterinary drug residues dietary exposure monitoring meat milk eggs",
+      "reported_total": 0,
+      "retrieved": 0
+    },
+    {
+      "database": "OpenAlex",
+      "query_id": "framework",
+      "query": "evidence mapping data readiness exposure assessment food chemical risk",
+      "reported_total": 5049,
+      "retrieved": 100
+    },
+    {
+      "database": "Europe PMC",
+      "query_id": "framework",
+      "query": "evidence mapping data readiness exposure assessment food chemical risk",
+      "reported_total": 0,
+      "retrieved": 0
+    }
+  ],
+  "deduplicated_before_threshold": 718,
+  "candidate_records": 165,
+  "candidate_index_counts": {
+    "OpenAlex": 122,
+    "Europe PMC": 44
+  },
+  "ranking_rule": "Transparent term-group score; candidates require score >=4 and still require human screening.",
+  "output": "${PROJECT_ROOT}/11_research_branches/animal_food_feed_transfer/02_literature/expanded_open_search_results.csv"
+}
