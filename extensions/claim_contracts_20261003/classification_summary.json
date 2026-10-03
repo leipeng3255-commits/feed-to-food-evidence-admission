@@ -1,0 +1,33 @@
+{
+  "source_config_key": "animal_food_outputs_root",
+  "source_relative_path": "local_evidence_audit_20260930/coordinator_only/exploratory_comparison_summary.json",
+  "sha256": "5a5468f3d32e368ea2c4778a119cd9ecca0165805b5d8d7763692558b591eb97",
+  "counts": {
+    "pesticide": {
+      "NEITHER_SELECTED_codes": 142,
+      "NEITHER_SELECTED_sample_ids": 640,
+      "NEITHER_SELECTED_result_rows": 332500,
+      "BOTH_SELECTED_codes": 13,
+      "BOTH_SELECTED_sample_ids": 50,
+      "BOTH_SELECTED_result_rows": 8912,
+      "HIERARCHY_ONLY_codes": 3,
+      "HIERARCHY_ONLY_sample_ids": 14,
+      "HIERARCHY_ONLY_result_rows": 1328,
+      "KEYWORD_ONLY_codes": 1,
+      "KEYWORD_ONLY_sample_ids": 6,
+      "KEYWORD_ONLY_result_rows": 3912
+    },
+    "veterinary_drug": {
+      "BOTH_SELECTED_codes": 48,
+      "BOTH_SELECTED_sample_ids": 8270,
+      "BOTH_SELECTED_result_rows": 239803,
+      "HIERARCHY_ONLY_codes": 17,
+      "HIERARCHY_ONLY_sample_ids": 330,
+      "HIERARCHY_ONLY_result_rows": 5918,
+      "NEITHER_SELECTED_codes": 6,
+      "NEITHER_SELECTED_sample_ids": 2973,
+      "NEITHER_SELECTED_result_rows": 129919
+    }
+  },
+  "status": "DEVELOPMENTAL_RULE_DISAGREEMENT_NOT_ACCURACY_OR_INDEPENDENT_VALIDATION"
+}

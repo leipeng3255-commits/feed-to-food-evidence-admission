@@ -1,0 +1,31 @@
+[
+  {
+    "public_file": "claim_admission_v2.py",
+    "source_sha256": "78198efe76d60c8f19851baa778f6e4922c5587b9d06705d7f37c7e49ab71f2d",
+    "transformation": "byte-identical original code or aggregate derivative"
+  },
+  {
+    "public_file": "test_claim_admission_v2.py",
+    "source_sha256": "e73afbdd6e4dbb3255b1898dbfa7700dc2de6ab922da5264762c30a5404184f1",
+    "transformation": "byte-identical original code or aggregate derivative"
+  },
+  {
+    "public_file": "figure_quality.py",
+    "source_sha256": "f982dd532e9179f1cf0c23ae414ace1abf282bb9e8fab6ce749e479123b31cd2",
+    "transformation": "byte-identical original code or aggregate derivative"
+  },
+  {
+    "public_file": "classification_summary.json",
+    "source_sha256": "bad10eae88d1ccff5f8d0b5e22a3bd73fae1cccbffa369936ca74ae977013641",
+    "transformation": "byte-identical original code or aggregate derivative"
+  },
+  {
+    "public_file": "figure5.svg",
+    "source_sha256": "362537e7a14e9b7fb220f6cc8012f3f6b14588a72b2b15d466ee9a9d41c768f0",
+    "transformation": "byte-identical original code or aggregate derivative"
+  },
+  {
+    "public_file": "render_figure5.py",
+    "transformation": "Original plot logic; local config replaced with adjacent aggregate JSON; outputs redirected to rendered/"
+  }
+]

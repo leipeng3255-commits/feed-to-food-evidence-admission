@@ -180,8 +180,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6617,
-      "sha256": "c1dd4a63cbe45a0df6d419cd37e88992b113dc9527d1ffd99d8df22093779ee6"
+      "bytes": 7049,
+      "sha256": "8df61799dd205385e0b459cce82db6a9ce87bf29959d04a59131c8089e772f53"
     },
     {
       "path": "RELEASE_QA.json",
@@ -229,6 +229,51 @@
       "sha256": "c7b62fc01231fe4bb2eea0f175ca01bc24eb6d6d4531537be27b52f7503f29fe"
     },
     {
+      "path": "extensions/claim_contracts_20261003/.gitignore",
+      "bytes": 23,
+      "sha256": "40fd94bce3bd503276fc36b5b44b95d2a50fee28823070bdaecf8e78ef2a8c2c"
+    },
+    {
+      "path": "extensions/claim_contracts_20261003/PROVENANCE.json",
+      "bytes": 1273,
+      "sha256": "c01d0ce68b094d146567747bb86934ea2103b3b3211b891139b9b61d58e9fec7"
+    },
+    {
+      "path": "extensions/claim_contracts_20261003/README.md",
+      "bytes": 4330,
+      "sha256": "5d8b1b8abea939d78510cb2a476e0587a144fa620389498e75bcaa8619821eaa"
+    },
+    {
+      "path": "extensions/claim_contracts_20261003/claim_admission_v2.py",
+      "bytes": 4564,
+      "sha256": "78198efe76d60c8f19851baa778f6e4922c5587b9d06705d7f37c7e49ab71f2d"
+    },
+    {
+      "path": "extensions/claim_contracts_20261003/classification_summary.json",
+      "bytes": 1220,
+      "sha256": "bad10eae88d1ccff5f8d0b5e22a3bd73fae1cccbffa369936ca74ae977013641"
+    },
+    {
+      "path": "extensions/claim_contracts_20261003/figure5.svg",
+      "bytes": 16516,
+      "sha256": "362537e7a14e9b7fb220f6cc8012f3f6b14588a72b2b15d466ee9a9d41c768f0"
+    },
+    {
+      "path": "extensions/claim_contracts_20261003/figure_quality.py",
+      "bytes": 2050,
+      "sha256": "f982dd532e9179f1cf0c23ae414ace1abf282bb9e8fab6ce749e479123b31cd2"
+    },
+    {
+      "path": "extensions/claim_contracts_20261003/render_figure5.py",
+      "bytes": 2750,
+      "sha256": "758ee2f21c572b29cd463ff5939d35473a8011cf590468fef2d3c9769ba7b69e"
+    },
+    {
+      "path": "extensions/claim_contracts_20261003/test_claim_admission_v2.py",
+      "bytes": 5810,
+      "sha256": "e73afbdd6e4dbb3255b1898dbfa7700dc2de6ab922da5264762c30a5404184f1"
+    },
+    {
       "path": "requirements-core.txt",
       "bytes": 100,
       "sha256": "2ef7556137bc52944bc444ebcb2ed2a3a0e7b68d5d8e7afc62beb841bf5a506b"
@@ -248,5 +293,7 @@
       "bytes": 544,
       "sha256": "388bed54b427694a19498a67962bf45884e6c9e129a59179e8f5ffc89561fe1b"
     }
-  ]
+  ],
+  "extension_date": "2026-10-03",
+  "extension_scope": "Claim contracts and aggregate classification disagreement; no new empirical validation"
 }

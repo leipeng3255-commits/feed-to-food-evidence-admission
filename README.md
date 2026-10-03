@@ -8,6 +8,8 @@ The documented empirical dossiers remain stopped for the full-chain estimand. Sy
 
 ## Quick start: no source downloads required
 
+The [3 October claim-specific extension](extensions/claim_contracts_20261003/README.md) adds four executable claim contracts, synthetic repair-set tests and the aggregate data/editable SVG for classification disagreement. It does not revise the frozen pilot or establish independent scientific validation. Follow its separate commands to test and render the extension; the historical release QA below concerns the earlier release.
+
 Python 3.11 or newer is recommended; the release test environment is recorded in `RELEASE_QA.json`, not asserted to be the historical analysis environment.
 
 ```sh
