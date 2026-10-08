@@ -1,0 +1,197 @@
+analyte,name_2009,name_2010,status
+001,Aldrin,Aldrin,SHARED_LABEL
+002,Allethrin,Allethrin,SHARED_LABEL
+011,Captan,Captan,SHARED_LABEL
+015,Chlorobenzilate,Chlorobenzilate,SHARED_LABEL
+024,Diazinon,Diazinon,SHARED_LABEL
+028,Dieldrin,Dieldrin,SHARED_LABEL
+032,Diuron,Diuron,SHARED_LABEL
+034,Endrin,Endrin,SHARED_LABEL
+035,EPN,EPN,SHARED_LABEL
+042,Azinphos methyl,Azinphos methyl,SHARED_LABEL
+044,Heptachlor,Heptachlor,SHARED_LABEL
+050,Lindane (BHC gamma),Lindane (BHC gamma),SHARED_LABEL
+052,Malathion,Malathion,SHARED_LABEL
+057,Parathion methyl,Parathion methyl,SHARED_LABEL
+058,MGK-264,MGK-264,SHARED_LABEL
+065,Parathion ethyl,Parathion ethyl,SHARED_LABEL
+069,Mevinphos Total,Mevinphos Total,SHARED_LABEL
+070,Piperonyl butoxide,Piperonyl butoxide,SHARED_LABEL
+075,Pyrethrins,Pyrethrins,SHARED_LABEL
+090,Toxaphene,,2009_ONLY
+102,Carbaryl,Carbaryl,SHARED_LABEL
+108,Tetradifon,Tetradifon,SHARED_LABEL
+114,Chlorpropham,Chlorpropham,SHARED_LABEL
+117,Disulfoton,Disulfoton,SHARED_LABEL
+124,Coumaphos,Coumaphos,SHARED_LABEL
+125,Diphenylamine (DPA),Diphenylamine (DPA),SHARED_LABEL
+129,Linuron,Linuron,SHARED_LABEL
+134,DCPA,DCPA,SHARED_LABEL
+143,Heptachlor epoxide,Heptachlor epoxide,SHARED_LABEL
+144,Dicloran,Dicloran,SHARED_LABEL
+148,Phorate,Phorate,SHARED_LABEL
+149,Simazine,Simazine,SHARED_LABEL
+151,Trifluralin,Trifluralin,SHARED_LABEL
+158,Nitrofen,Nitrofen,SHARED_LABEL
+159,Methomyl,Methomyl,SHARED_LABEL
+160,Chlorpyrifos,Chlorpyrifos,SHARED_LABEL
+162,Propoxur,Propoxur,SHARED_LABEL
+165,Phosmet,Phosmet,SHARED_LABEL
+166,Phosalone,Phosalone,SHARED_LABEL
+167,Aldicarb,Aldicarb,SHARED_LABEL
+168,Aldicarb sulfone,Aldicarb sulfone,SHARED_LABEL
+171,Dimethoate,Dimethoate,SHARED_LABEL
+172,Chlordane trans,Chlordane trans,SHARED_LABEL
+173,Chlordane cis,Chlordane cis,SHARED_LABEL
+176,Tetrachlorvinphos,Tetrachlorvinphos,SHARED_LABEL
+177,Fenthion,Fenthion,SHARED_LABEL
+180,Carbofuran,Carbofuran,SHARED_LABEL
+181,Metribuzin,Metribuzin,SHARED_LABEL
+191,Benfluralin,Benfluralin,SHARED_LABEL
+197,Methidathion,Methidathion,SHARED_LABEL
+202,Carbophenothion,Carbophenothion,SHARED_LABEL
+205,Terbufos,Terbufos,SHARED_LABEL
+206,Nonachlor trans,Nonachlor trans,SHARED_LABEL
+207,Nonachlor cis,Nonachlor cis,SHARED_LABEL
+227,Alachlor,Alachlor,SHARED_LABEL
+229,Flucythrinate,Flucythrinate,SHARED_LABEL
+230,Pendimethalin,Pendimethalin,SHARED_LABEL
+235,Chlorpyrifos methyl,Chlorpyrifos methyl,SHARED_LABEL
+236,Fenamiphos,Fenamiphos,SHARED_LABEL
+254,"Dicofol p,p'","Dicofol p,p'",SHARED_LABEL
+264,Propiconazole,Propiconazole,SHARED_LABEL
+271,Fenarimol,Fenarimol,SHARED_LABEL
+275,"Methoxychlor p,p'","Methoxychlor p,p'",SHARED_LABEL
+280,Fluchloralin,Fluchloralin,SHARED_LABEL
+283,Metolachlor,Metolachlor,SHARED_LABEL
+292,Fluazifop butyl,Fluazifop butyl,SHARED_LABEL
+297,Fluvalinate,Fluvalinate,SHARED_LABEL
+299,Diclofop methyl,Diclofop methyl,SHARED_LABEL
+304,Quintozene (PCNB),Quintozene (PCNB),SHARED_LABEL
+305,Atrazine,Atrazine,SHARED_LABEL
+310,Propham,Propham,SHARED_LABEL
+321,Hexachlorobenzene (HCB),Hexachlorobenzene (HCB),SHARED_LABEL
+330,Diphenamid,Diphenamid,SHARED_LABEL
+333,Propazine,Propazine,SHARED_LABEL
+338,Dichlorvos (DDVP),Dichlorvos (DDVP),SHARED_LABEL
+349,Oxychlordane,Oxychlordane,SHARED_LABEL
+351,Pentachloroaniline (PCA),Pentachloroaniline (PCA),SHARED_LABEL
+352,Mirex,Mirex,SHARED_LABEL
+382,1-Naphthol,1-Naphthol,SHARED_LABEL
+391,Fenitrothion,Fenitrothion,SHARED_LABEL
+512,3-Hydroxycarbofuran,3-Hydroxycarbofuran,SHARED_LABEL
+529,Vinclozolin,Vinclozolin,SHARED_LABEL
+537,Oxamyl,Oxamyl,SHARED_LABEL
+539,Permethrin Total,Permethrin Total,SHARED_LABEL
+540,Pronamide,Pronamide,SHARED_LABEL
+556,Resmethrin,Resmethrin,SHARED_LABEL
+562,Pirimiphos methyl,Pirimiphos methyl,SHARED_LABEL
+596,Norflurazon,Norflurazon,SHARED_LABEL
+597,Cypermethrin,Cypermethrin,SHARED_LABEL
+607,Metalaxyl,Metalaxyl,SHARED_LABEL
+608,Triadimefon,Triadimefon,SHARED_LABEL
+609,Sulprofos,Sulprofos,SHARED_LABEL
+612,Deltamethrin (includes parent Tralomethrin),Deltamethrin (includes parent Tralomethrin),SHARED_LABEL
+621,Tri Allate,Tri Allate,SHARED_LABEL
+623,Propargite,Propargite,SHARED_LABEL
+624,Tetrahydrophthalimide (THPI),Tetrahydrophthalimide (THPI),SHARED_LABEL
+625,Oxadiazon,Oxadiazon,SHARED_LABEL
+626,Iprodione,Iprodione,SHARED_LABEL
+636,Propetamphos,Propetamphos,SHARED_LABEL
+651,Diflubenzuron,Diflubenzuron,SHARED_LABEL
+668,Chloroxuron,Chloroxuron,SHARED_LABEL
+675,Propachlor,Propachlor,SHARED_LABEL
+679,Myclobutanil,Myclobutanil,SHARED_LABEL
+699,Clofentezine,Clofentezine,SHARED_LABEL
+713,Oxyfluorfen,Oxyfluorfen,SHARED_LABEL
+719,Clomazone,Clomazone,SHARED_LABEL
+721,Ethalfluralin,Ethalfluralin,SHARED_LABEL
+722,Etridiazole,Etridiazole,SHARED_LABEL
+726,Thiobencarb,Thiobencarb,SHARED_LABEL
+728,Bifenox,Bifenox,SHARED_LABEL
+736,Fluridone,Fluridone,SHARED_LABEL
+749,Temephos,Temephos,SHARED_LABEL
+775,Dinitramine,Dinitramine,SHARED_LABEL
+777,Fenoxaprop ethyl,Fenoxaprop ethyl,SHARED_LABEL
+780,Tebuthiuron,Tebuthiuron,SHARED_LABEL
+781,Cyfluthrin,Cyfluthrin,SHARED_LABEL
+783,Butylate,Butylate,SHARED_LABEL
+791,Phenmedipham,Phenmedipham,SHARED_LABEL
+796,Tridiphane,Tridiphane,SHARED_LABEL
+807,Acetochlor,Acetochlor,SHARED_LABEL
+808,Fenpropathrin,Fenpropathrin,SHARED_LABEL
+811,Fenoxycarb,Fenoxycarb,SHARED_LABEL
+814,Prodiamine,Prodiamine,SHARED_LABEL
+834,Flumetralin,Flumetralin,SHARED_LABEL
+848,Phenothrin,Phenothrin,SHARED_LABEL
+900,Endosulfan I,Endosulfan I,SHARED_LABEL
+901,Endosulfan II,Endosulfan II,SHARED_LABEL
+902,Endosulfan sulfate,Endosulfan sulfate,SHARED_LABEL
+903,BHC alpha,BHC alpha,SHARED_LABEL
+904,BHC beta,BHC beta,SHARED_LABEL
+905,BHC delta,BHC delta,SHARED_LABEL
+906,"DDT p,p'","DDT p,p'",SHARED_LABEL
+908,"DDD p,p'","DDD p,p'",SHARED_LABEL
+909,"DDD o,p'","DDD o,p'",SHARED_LABEL
+910,"DDE p,p'","DDE p,p'",SHARED_LABEL
+911,"DDE o,p'","DDE o,p'",SHARED_LABEL
+930,Bifenthrin,Bifenthrin,SHARED_LABEL
+943,Thiodicarb,Thiodicarb,SHARED_LABEL
+945,Ethofumesate,Ethofumesate,SHARED_LABEL
+946,Isopropalin,Isopropalin,SHARED_LABEL
+947,Tetramethrin,Tetramethrin,SHARED_LABEL
+960,Butralin,Butralin,SHARED_LABEL
+967,Imidacloprid,Imidacloprid,SHARED_LABEL
+A15,Chlorethoxyfos,Chlorethoxyfos,SHARED_LABEL
+A30,Fenbuconazole,Fenbuconazole,SHARED_LABEL
+A38,Lactofen,Lactofen,SHARED_LABEL
+A47,Oxamyl oxime,Oxamyl oxime,SHARED_LABEL
+A59,Tebupirimfos,Tebupirimfos,SHARED_LABEL
+A82,Fipronil,Fipronil,SHARED_LABEL
+AAV,Flumiclorac pentyl,Flumiclorac pentyl,SHARED_LABEL
+ABG,Tebufenozide,Tebufenozide,SHARED_LABEL
+ADC,Prallethrin,Prallethrin,SHARED_LABEL
+ADD,Dimethenamid,Dimethenamid,SHARED_LABEL
+ADE,Esfenvalerate+Fenvalerate Total,Esfenvalerate+Fenvalerate Total,SHARED_LABEL
+ADG,Indoxacarb,Indoxacarb,SHARED_LABEL
+ADH,Cyphenothrin,Cyphenothrin,SHARED_LABEL
+ADJ,Fluroxypyr 1-methylheptyl ester,Fluroxypyr 1-methylheptyl ester,SHARED_LABEL
+ADK,Imiprothrin,Imiprothrin,SHARED_LABEL
+ADL,MGK-326 (dipropyl isocinchomeronate),MGK-326 (dipropyl isocinchomeronate),SHARED_LABEL
+ADR,Triticonazole,Triticonazole,SHARED_LABEL
+AEC,Hydroprene,Hydroprene,SHARED_LABEL
+AEL,"Cyhalothrin, Total (Cyhalothrin-L + R157836 epimer)","Cyhalothrin, Total (Cyhalothrin-L + R157836 epimer)",SHARED_LABEL
+AEP,Clothianidin,Clothianidin,SHARED_LABEL
+AES,Methoxyfenozide,Methoxyfenozide,SHARED_LABEL
+AEV,Sethoxydim,Sethoxydim,SHARED_LABEL
+AEW,Famoxadone,Famoxadone,SHARED_LABEL
+AFO,Dinotefuran,Dinotefuran,SHARED_LABEL
+AFS,Fenpyroximate,Fenpyroximate,SHARED_LABEL
+AFW,Spiromesifen Total (parent + enol metabolite),Spiromesifen Total (parent + enol metabolite),SHARED_LABEL
+AGJ,Fluoxastrobin,Fluoxastrobin,SHARED_LABEL
+AGR,"2,4-dimethylphenyl formamide (2,4-DMPF)","2,4-dimethylphenyl formamide (2,4-DMPF)",SHARED_LABEL
+B13,Chlorfenapyr,Chlorfenapyr,SHARED_LABEL
+B15,Isoxaflutole,Isoxaflutole,SHARED_LABEL
+B16,Pyrimethanil,Pyrimethanil,SHARED_LABEL
+B20,Bromuconazole,Bromuconazole,SHARED_LABEL
+B21,Carfentrazone ethyl,Carfentrazone ethyl,SHARED_LABEL
+B22,Cyprodinil,Cyprodinil,SHARED_LABEL
+B26,Tefluthrin,Tefluthrin,SHARED_LABEL
+B41,Fenhexamid,Fenhexamid,SHARED_LABEL
+B43,Thiamethoxam,Thiamethoxam,SHARED_LABEL
+B48,Azoxystrobin,Azoxystrobin,SHARED_LABEL
+B52,Buprofezin,Buprofezin,SHARED_LABEL
+B53,Epoxiconazole,Epoxiconazole,SHARED_LABEL
+B56,Pyridaben,Pyridaben,SHARED_LABEL
+B58,Difenoconazole,Difenoconazole,SHARED_LABEL
+B61,Pyraclostrobin,Pyraclostrobin,SHARED_LABEL
+B64,Fenamidone,Fenamidone,SHARED_LABEL
+B68,Thiacloprid,Thiacloprid,SHARED_LABEL
+B70,Tolclofos methyl,Tolclofos methyl,SHARED_LABEL
+B72,Tetraconazole,Tetraconazole,SHARED_LABEL
+B75,Boscalid,Boscalid,SHARED_LABEL
+B77,Dimethomorph,Dimethomorph,SHARED_LABEL
+B80,Acetamiprid,Acetamiprid,SHARED_LABEL
+B82,Bifenazate,Bifenazate,SHARED_LABEL
+B84,Etoxazole,Etoxazole,SHARED_LABEL
+B85,Spirodiclofen,Spirodiclofen,SHARED_LABEL

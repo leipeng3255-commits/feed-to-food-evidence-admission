@@ -1,0 +1,233 @@
+{
+  "protocol_sha256": "79c9ebb403e29ff87ddb94122ed72b4b1a67cf9e2c9ff6cd52ecf857dbf5fb89",
+  "baseline_2009_aggregate_sha256": "71cfd0877a048edf28c4e98620500fc105a6cab263b4b8e702662db9938be566",
+  "baseline_recalculation": "PASS: fresh2009 source FC results agree with prior aggregate table",
+  "source_receipts": [
+    {
+      "year": 2009,
+      "source_sha256": "8a1cdaa6d76d9eb1e0b48c3c514e4d07f1bb4c2a9661cbb2d7b8b7c5609c213f",
+      "official_url": "https://www.ams.usda.gov/sites/default/files/media/2009PDPDatabase.zip",
+      "relative_raw_path": "usda_pdp/2009PDPDatabase.zip",
+      "all_archive_rows": 1884212,
+      "all_archive_samples": 13244,
+      "selected_samples": {
+        "BA": 292,
+        "BM": 292,
+        "FC": 543
+      },
+      "selected_flags": {
+        "ND": 177110,
+        "NP": 13965,
+        "O": 1095
+      },
+      "original_units": {
+        "B": 192170
+      },
+      "source_cells": 490
+    },
+    {
+      "year": 2010,
+      "source_sha256": "f285c1f403cfeb4f952a4310b4a712983c6ed023f7c7371821f7bd54d21c31e5",
+      "official_url": "https://www.ams.usda.gov/sites/default/files/media/2010PDPDatabase.zip",
+      "relative_raw_path": "usda_pdp/2010PDPDatabase.zip",
+      "all_archive_rows": 1923734,
+      "all_archive_samples": 12845,
+      "selected_samples": {
+        "FC": 384
+      },
+      "selected_flags": {
+        "ND": 65617,
+        "NP": 7139,
+        "O": 674,
+        "R": 3
+      },
+      "original_units": {
+        "M": 73433
+      },
+      "source_cells": 195
+    }
+  ],
+  "factors": [
+    1.0,
+    2.0,
+    5.0,
+    10.0,
+    "Infinity"
+  ],
+  "bins_ppb": [
+    0.0,
+    1.0,
+    10.0,
+    100.0,
+    1000.0,
+    "Infinity"
+  ],
+  "thresholds_ppb": [
+    2.0,
+    10.0,
+    20.0
+  ],
+  "temporal": {
+    "2009": {
+      "all_cells": 196,
+      "working_cells": 178,
+      "working_rows": 94726,
+      "all_rows": 106362,
+      "NP_rows": 11636,
+      "R1_wider": 41,
+      "R1_unchanged": 137,
+      "finite_means": {
+        "R0": 178,
+        "R1": 177,
+        "R2": 0
+      },
+      "nonpoint_exceedance": {
+        "R0": {
+          "2": 99,
+          "10": 31,
+          "20": 8
+        },
+        "R1": {
+          "2": 131,
+          "10": 44,
+          "20": 24
+        },
+        "R2": {
+          "2": 178,
+          "10": 178,
+          "20": 178
+        }
+      }
+    },
+    "2010": {
+      "all_cells": 195,
+      "working_cells": 175,
+      "working_rows": 66294,
+      "all_rows": 73433,
+      "NP_rows": 7139,
+      "R1_wider": 34,
+      "R1_unchanged": 141,
+      "finite_means": {
+        "R0": 175,
+        "R1": 174,
+        "R2": 0
+      },
+      "nonpoint_exceedance": {
+        "R0": {
+          "2": 98,
+          "10": 30,
+          "20": 7
+        },
+        "R1": {
+          "2": 124,
+          "10": 41,
+          "20": 19
+        },
+        "R2": {
+          "2": 175,
+          "10": 175,
+          "20": 175
+        }
+      }
+    }
+  },
+  "shared_temporal": {
+    "2009": {
+      "all_cells": 175,
+      "working_cells": 175,
+      "working_rows": 94179,
+      "all_rows": 94959,
+      "NP_rows": 780,
+      "R1_wider": 38,
+      "R1_unchanged": 137,
+      "finite_means": {
+        "R0": 175,
+        "R1": 174,
+        "R2": 0
+      },
+      "nonpoint_exceedance": {
+        "R0": {
+          "2": 98,
+          "10": 30,
+          "20": 7
+        },
+        "R1": {
+          "2": 128,
+          "10": 42,
+          "20": 22
+        },
+        "R2": {
+          "2": 175,
+          "10": 175,
+          "20": 175
+        }
+      }
+    },
+    "2010": {
+      "all_cells": 175,
+      "working_cells": 175,
+      "working_rows": 66294,
+      "all_rows": 66294,
+      "NP_rows": 0,
+      "R1_wider": 34,
+      "R1_unchanged": 141,
+      "finite_means": {
+        "R0": 175,
+        "R1": 174,
+        "R2": 0
+      },
+      "nonpoint_exceedance": {
+        "R0": {
+          "2": 98,
+          "10": 30,
+          "20": 7
+        },
+        "R1": {
+          "2": 124,
+          "10": 41,
+          "20": 19
+        },
+        "R2": {
+          "2": 175,
+          "10": 175,
+          "20": 175
+        }
+      }
+    }
+  },
+  "label_match_status": {
+    "SHARED_LABEL": 195,
+    "2009_ONLY": 1
+  },
+  "shared_working_cells": 175,
+  "same_name_code_conflicts": [],
+  "NP_sensitivity": {
+    "2009": {
+      "all_cells": 490,
+      "NP_cells": 31,
+      "finite_upper_by_factor": {
+        "1": 490,
+        "2": 490,
+        "5": 490,
+        "10": 490,
+        "inf": 459
+      },
+      "invalid_NP_limits": 0
+    },
+    "2010": {
+      "all_cells": 195,
+      "NP_cells": 20,
+      "finite_upper_by_factor": {
+        "1": 195,
+        "2": 195,
+        "5": 195,
+        "10": 195,
+        "inf": 175
+      },
+      "invalid_NP_limits": 0
+    }
+  },
+  "reporting_template_rows": 3425,
+  "assertions": "PASS: fixed denominators, NP nesting, invariant non-NP cells, sufficient-statistic reconstruction, temporal interval nesting, source hashes/joins/keys",
+  "boundary": "Finite NP caps are assumptions; temporal application is exploratory, not biological validation or a population time trend."
+}

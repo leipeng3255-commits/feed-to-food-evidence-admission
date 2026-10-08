@@ -1,0 +1,91 @@
+{
+  "design": "post-pilot; previously inspected source counts; not preregistered",
+  "source_archive_rows": 1884212,
+  "source_archive_samples": 13244,
+  "selected_samples": {
+    "BA": 292,
+    "BM": 292,
+    "FC": 543
+  },
+  "selected_flags": {
+    "ND": 177110,
+    "NP": 13965,
+    "O": 1095
+  },
+  "excluded_invalid": {},
+  "bins_ppb": [
+    0.0,
+    1.0,
+    10.0,
+    100.0,
+    1000.0,
+    "Infinity"
+  ],
+  "coarse_bins_ppb": [
+    0.0,
+    10.0,
+    1000.0,
+    "Infinity"
+  ],
+  "thresholds_ppb": [
+    2.0,
+    10.0,
+    20.0
+  ],
+  "all_cells": 490,
+  "zero_working_cells": 24,
+  "all_cells_with_NP": 31,
+  "all_cells_full_unbounded": 31,
+  "summary": {
+    "cells": 466,
+    "rows": 180644,
+    "working_rows": 178205,
+    "NP_rows": 2439,
+    "cells_with_NP": 7,
+    "all_ND_working_cells": 406,
+    "R1_wider_cells": 60,
+    "R1_unchanged_cells": 406,
+    "R1_unbounded_cells": 1,
+    "full_unbounded_cells": 7
+  },
+  "by_commodity": {
+    "BA": {
+      "cells": 144,
+      "rows": 42008,
+      "working_rows": 41718,
+      "NP_rows": 290,
+      "cells_with_NP": 1,
+      "all_ND_working_cells": 131,
+      "R1_wider_cells": 13,
+      "R1_unchanged_cells": 131,
+      "R1_unbounded_cells": 0,
+      "full_unbounded_cells": 1
+    },
+    "BM": {
+      "cells": 144,
+      "rows": 42048,
+      "working_rows": 41761,
+      "NP_rows": 287,
+      "cells_with_NP": 1,
+      "all_ND_working_cells": 138,
+      "R1_wider_cells": 6,
+      "R1_unchanged_cells": 138,
+      "R1_unbounded_cells": 0,
+      "full_unbounded_cells": 1
+    },
+    "FC": {
+      "cells": 178,
+      "rows": 96588,
+      "working_rows": 94726,
+      "NP_rows": 1862,
+      "cells_with_NP": 5,
+      "all_ND_working_cells": 137,
+      "R1_wider_cells": 41,
+      "R1_unchanged_cells": 137,
+      "R1_unbounded_cells": 1,
+      "full_unbounded_cells": 5
+    }
+  },
+  "assertions": "PASS: fixed denominators; nesting; nested coarse bins; exact histogram negative control; joins; uniqueness; raw hashes",
+  "limitations": "Conditional reporting intervals, not biological truth, confidence intervals, national prevalence, exposure or external validation."
+}

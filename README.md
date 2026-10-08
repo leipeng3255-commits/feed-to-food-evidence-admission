@@ -63,3 +63,7 @@ No manuscript, author contact list, internal correspondence, unconfirmed author-
 ## Licenses and citation
 
 Original code: MIT (`LICENSE`). Original protocol/method documentation: CC BY 4.0 (`LICENSE-DOCUMENTATION.md`). Aggregate data and third-party rights: see `DATA_RIGHTS.md`; no blanket relicensing of source material. Cite the repository URL and exact commit used. There is no repository DOI or accepted-paper citation at this release.
+
+## 8 October reporting-information extension
+
+See [fixed rules, NP sensitivity, temporal repetition and target-specific reporting statistics](extensions/reporting_information_20261008/README.md). These are conditional arithmetic results, not exposure or full-chain validation.

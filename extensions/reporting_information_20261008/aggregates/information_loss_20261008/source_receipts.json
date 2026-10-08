@@ -1,0 +1,20 @@
+[
+  {
+    "relative_raw_path": "usda_pdp/2009PDPDatabase.zip",
+    "sha256": "8a1cdaa6d76d9eb1e0b48c3c514e4d07f1bb4c2a9661cbb2d7b8b7c5609c213f",
+    "bytes": 6883996,
+    "official_url": "https://www.ams.usda.gov/sites/default/files/media/2009PDPDatabase.zip"
+  },
+  {
+    "relative_raw_path": "branches/animal_food_feed_transfer/australia_daff_nrs/animal_products/FY2023-24/hen-egg-2023-24.pdf",
+    "sha256": "e8419573e7e2e9d3b856d24ef85cc805ef4629fae5ef78295edecc5dd1973f53",
+    "bytes": 468093,
+    "official_url": "https://www.agriculture.gov.au/sites/default/files/documents/hen-egg-2023-24.pdf"
+  },
+  {
+    "relative_raw_path": "branches/animal_food_feed_transfer/finland_ruokavirasto/FEED_ANALYTICAL/2012/eviran_julkaisuja_8_2013_paivitetty_210813.pdf",
+    "sha256": "e0b98da1e932a89c2be7b7619dd9cd654be0b51afe412b26aafdee4316869f07",
+    "bytes": 3241419,
+    "official_url": "https://www.ruokavirasto.fi/globalassets/tietoa-meista/julkaisut/raportit-ja-selvitykset/elaimet/eviran_julkaisuja_8_2013_paivitetty_210813.pdf"
+  }
+]
