@@ -320,18 +320,23 @@
     },
     {
       "path": "extensions/reporting_information_20261008/MANIFEST.json",
-      "bytes": 2654,
-      "sha256": "5ca26703384540c60dbac7e101a71601561bb776f784420acebceaa03d8f3b3f"
+      "bytes": 2750,
+      "sha256": "55d52e7771f3a714561104de5ef4b51d71cafc4d861bfc7d9692b26ed770276d"
+    },
+    {
+      "path": "extensions/reporting_information_20261008/PUBLIC_PROVENANCE.json",
+      "bytes": 7244,
+      "sha256": "b19379edd6573b6b7ddbee5687dcff08024d898ed5f77971228870b971047526"
     },
     {
       "path": "extensions/reporting_information_20261008/README.md",
-      "bytes": 2485,
-      "sha256": "6e89be7a631b7987abcd4e7a53eed6f31543dd9deb8942178c6d53aa66b97670"
+      "bytes": 2770,
+      "sha256": "2f6acb70b4b576749b422b69cdf977c5d4bbd56493a0e991badd7b83b62f6589"
     },
     {
       "path": "extensions/reporting_information_20261008/aggregates/information_loss_20261008/all_cells.csv",
-      "bytes": 120525,
-      "sha256": "71cfd0877a048edf28c4e98620500fc105a6cab263b4b8e702662db9938be566"
+      "bytes": 120034,
+      "sha256": "383411bc778df8f61b8fa6b33dba2d0d206c6b8821b56f761aac7a054be35f07"
     },
     {
       "path": "extensions/reporting_information_20261008/aggregates/information_loss_20261008/context_source_checks.json",
@@ -350,8 +355,8 @@
     },
     {
       "path": "extensions/reporting_information_20261008/aggregates/information_loss_20261008/retained_interval_histograms.csv",
-      "bytes": 72252,
-      "sha256": "d46992809fc94a75d2d2b9862b76e712c87960e91da0373f2af3dfc0be3bda96"
+      "bytes": 69286,
+      "sha256": "f71fbc9d5e1dabd4597f822f6ea48c2c691a254eac4b153dcbfb8703bf62b13f"
     },
     {
       "path": "extensions/reporting_information_20261008/aggregates/information_loss_20261008/source_receipts.json",
@@ -365,18 +370,18 @@
     },
     {
       "path": "extensions/reporting_information_20261008/aggregates/np_temporal_20261008/NP_scenarios_all_cells.csv",
-      "bytes": 352263,
-      "sha256": "2413dd70246e9d686457c9afc833f971b3bff38e49dbf33619b0a97d90b723a2"
+      "bytes": 348837,
+      "sha256": "22ce8e9562e178d7105b3b354939af92d5912a1e91058c76dc77ba97e02a384b"
     },
     {
       "path": "extensions/reporting_information_20261008/aggregates/np_temporal_20261008/catfish_2010_cells.csv",
-      "bytes": 41941,
-      "sha256": "65e2b011c4837452cceb437a8eb1faf0b579cda59bd1061c9f0363ee21d64ced"
+      "bytes": 41745,
+      "sha256": "939f1e73e5788c8bd1c6a96c775db3748e30824aab50d915ee66f268ec4999a1"
     },
     {
       "path": "extensions/reporting_information_20261008/aggregates/np_temporal_20261008/catfish_2010_histograms.csv",
-      "bytes": 31603,
-      "sha256": "32b316a5746ba1b0a67714e3dc7939973e4cfe7aa1f60583cfd905275b5e9933"
+      "bytes": 30354,
+      "sha256": "400947d76c9a34c8183fd4a2be9580403aee0e868f44db5627f285ed6c3c5d54"
     },
     {
       "path": "extensions/reporting_information_20261008/aggregates/np_temporal_20261008/figure7_plot_metrics.json",
@@ -385,13 +390,13 @@
     },
     {
       "path": "extensions/reporting_information_20261008/aggregates/np_temporal_20261008/filled_reporting_template.csv",
-      "bytes": 1316608,
-      "sha256": "affbdf55cf7a4233e5e6a412319de3fbc1613b24b2bd79ecb6d049ddd8e02514"
+      "bytes": 1313182,
+      "sha256": "555d49d9c7a536bfa892e303a6744f0dad9d83a6d2a32db60258e606a6bcbb85"
     },
     {
       "path": "extensions/reporting_information_20261008/aggregates/np_temporal_20261008/shared_label_cells.csv",
-      "bytes": 19060,
-      "sha256": "800c0d8acbe47ca3dd3160f3748dfcb34ba81dcb882b4451f35d12feed4e90e5"
+      "bytes": 18884,
+      "sha256": "075ae5de50e135ef21e88966a9e43fa6b3062ad8a4ed8f46b5f13f6d6c8e1eb7"
     },
     {
       "path": "extensions/reporting_information_20261008/aggregates/np_temporal_20261008/summary.json",
@@ -400,8 +405,8 @@
     },
     {
       "path": "extensions/reporting_information_20261008/aggregates/np_temporal_20261008/temporal_label_audit.csv",
-      "bytes": 8816,
-      "sha256": "7a0ba5576643b60c4318d8cd4cf5c76cdbf262059b9a5e3053b2e687f1a6782b"
+      "bytes": 8619,
+      "sha256": "08f7e0a1dce776a43e3ed780cd057e5d8a7ddb7569858476d8165ef97315b2ee"
     },
     {
       "path": "extensions/reporting_information_20261008/figures/Figure_6.svg",
