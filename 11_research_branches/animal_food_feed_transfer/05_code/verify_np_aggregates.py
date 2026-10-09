@@ -4,14 +4,17 @@ import csv
 import json
 import math
 from pathlib import Path
-from information_loss_20261008 import paths,THRESHOLDS
+THRESHOLDS=(2,10,20)
 
 def main():
-    c=paths()
     parser=argparse.ArgumentParser()
     parser.add_argument('--aggregates',type=Path,help='Explicit alternative aggregate directory')
     args=parser.parse_args()
-    p=args.aggregates or c['animal_food_outputs_root']/'np_temporal_20261008'
+    if args.aggregates:
+        p=args.aggregates
+    else:
+        from information_loss_20261008 import paths
+        p=paths()['animal_food_outputs_root']/'np_temporal_20261008'
     with (p/'NP_scenarios_all_cells.csv').open() as f:rs=list(csv.DictReader(f))
     with (p/'filled_reporting_template.csv').open() as f:ss=list(csv.DictReader(f))
     assert len(rs)==len(ss)==3425

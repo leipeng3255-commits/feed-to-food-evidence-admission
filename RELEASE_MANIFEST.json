@@ -234,9 +234,19 @@
       "sha256": "514f6acf6ec0b4e7a5bd2b6a9a8dea75197bd576d0518e002d31541cc8bce908"
     },
     {
+      "path": "11_research_branches/animal_food_feed_transfer/05_code/test_supplement_verifier.py",
+      "bytes": 2304,
+      "sha256": "d63be898569c589bc0dd171e26a3437eb49713247450853fc669ea124579b215"
+    },
+    {
       "path": "11_research_branches/animal_food_feed_transfer/05_code/verify_np_aggregates.py",
-      "bytes": 1385,
-      "sha256": "51f48489ce2b7382d5f85dd477417b4e74cf5c759ecb792ce50369919118eac0"
+      "bytes": 1440,
+      "sha256": "84a52916be5e916e64f6cfc0d6632254ac776539fa4dad7e151c25fbf845f063"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/05_code/verify_supplement_bundle.py",
+      "bytes": 6741,
+      "sha256": "3249885ff5a4b3e4d6db74eefc17f20e03ab0f0b6e7ce245572c44bb2c9b587e"
     },
     {
       "path": "11_research_branches/animal_food_feed_transfer/06_outputs/figures/figure1_noncompensatory_evidence_gate.svg",
@@ -315,8 +325,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7643,
-      "sha256": "8fa8bcc8e2f4e46ab0796a094a462f6dad7a9665e6ead57960669f2498a9161a"
+      "bytes": 7989,
+      "sha256": "6204222bb41422beff7fa64ed97428289c6925e366015eec1399aba8d0d6c10e"
     },
     {
       "path": "RELEASE_QA.json",
@@ -407,6 +417,11 @@
       "path": "extensions/claim_contracts_20261003/test_claim_admission_v2.py",
       "bytes": 5810,
       "sha256": "e73afbdd6e4dbb3255b1898dbfa7700dc2de6ab922da5264762c30a5404184f1"
+    },
+    {
+      "path": "extensions/portable_supplement_checks_20261009/README.md",
+      "bytes": 2407,
+      "sha256": "ce68f756984a1b839e466b3eed5e8b888f18fc2ec71dee9f43ebe947e977cabb"
     },
     {
       "path": "extensions/reporting_information_20261008/MANIFEST.json",
@@ -584,5 +599,9 @@
   "reporting_revision": {
     "date": "2026-10-09",
     "scope": "synthetic examples, reporting reconstruction and explicit USDA-core reproduction; not scientific validation"
+  },
+  "portable_supplement_checks": {
+    "scope": "standard-library bundle integrity and arithmetic; no source-data access",
+    "date": "2026-10-09"
   }
 }

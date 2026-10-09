@@ -71,3 +71,7 @@ See [fixed rules, NP sensitivity, temporal repetition and target-specific report
 ## 9 October reproducibility and reporting revision
 
 See [synthetic counterexamples, explicit frozen-source rerun and Figure1-4 reproduction](extensions/reporting_revision_20261009/README.md). Source reproduction is restricted to the USDA core and does not silently claim that contextual transcriptions were rerun.
+
+## Portable supplementary checks
+
+[Standard-library S4/S5 verification](extensions/portable_supplement_checks_20261009/README.md) works directly on extracted journal reproduction bundles without project configuration, third-party Python modules, source data or network. It verifies integrity and conditional arithmetic, not scientific validity.
