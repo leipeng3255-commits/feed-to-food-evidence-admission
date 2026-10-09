@@ -1,5 +1,6 @@
 """Post-pilot, same-source reporting-information experiment; no exposure model."""
 from pathlib import Path
+import argparse
 from collections import Counter, defaultdict
 import bisect
 import csv
@@ -11,6 +12,7 @@ import re
 import subprocess
 import zipfile
 import yaml
+from reporting_reproduction import source_receipt, output_root
 
 B = Path(__file__).resolve().parents[1]
 ROOT = B.parents[1]
@@ -71,23 +73,21 @@ def json_safe(x):
     return x
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--public-reproduction',action='store_true',help='Explicit fixed-PDP-receipt mode; omit separate Finland/Australia context checks; write to a fresh configured output subtree')
+    args = parser.parse_args()
     subprocess.run(['python3', str(ROOT/'05_code/utilities/check_paths.py')], check=True, stdout=subprocess.DEVNULL)
     c = paths()
-    out = c['animal_food_outputs_root'] / 'information_loss_20261008'
-    out.mkdir(parents=True, exist_ok=True)
+    out = output_root(c,args.public_reproduction) / 'information_loss_20261008'
+    out.mkdir(parents=True, exist_ok=not args.public_reproduction)
     source = c['raw_data_root'] / 'usda_pdp/2009PDPDatabase.zip'
     other = [c['animal_food_raw_root']/'australia_daff_nrs/animal_products/FY2023-24/hen-egg-2023-24.pdf',
              c['animal_food_raw_root']/'finland_ruokavirasto/FEED_ANALYTICAL/2012/eviran_julkaisuja_8_2013_paivitetty_210813.pdf']
-    with (ROOT/'00_admin/download_manifest.csv').open(encoding='utf-8-sig') as f:
-        receipts = list(csv.DictReader(f))
+    if args.public_reproduction:
+        other = []
     source_receipts = []
     for p in [source, *other]:
-        digest = sha(p)
-        matches = [r for r in receipts if r['local_file_path'] == str(p) and r['sha256'] == digest]
-        assert matches, f'Unverified source {p}'
-        source_receipts.append({'relative_raw_path': str(p.relative_to(c['raw_data_root'])),
-                                'sha256': digest, 'bytes': p.stat().st_size,
-                                'official_url': matches[-1]['official_url']})
+        source_receipts.append(source_receipt(p,c,args.public_reproduction))
     samples = {}
     groups = defaultdict(list)
     all_flags = Counter()
@@ -205,6 +205,12 @@ def main():
         assert sha(p) == receipt['sha256']
     (out/'summary.json').write_text(json.dumps(json_safe(summary),indent=2,allow_nan=False)+'\n')
     (out/'source_receipts.json').write_text(json.dumps(source_receipts,indent=2)+'\n')
+    if args.public_reproduction:
+        (out/'context_source_checks.json').write_text(json.dumps({'status':'NOT_RUN_PDP_ONLY',
+            'scope':'Explicit public mode reproduces USDA core only, not Finland/Australia context transcription.'},indent=2)+'\n')
+        (out/'protocol_sha256.txt').write_text(sha(B/'01_protocol/information_loss_20261008.md')+'\n')
+        print(json.dumps(json_safe(summary),indent=2))
+        return
     fi_text = subprocess.check_output(['pdftotext','-f','44','-l','46','-layout',str(other[1]),'-']).decode()
     fi_csv = c['intermediate_data_root']/'branches/animal_food_feed_transfer/finland_feed_body_audits/feed2012_pesticide_qualitative_literal_20261005.csv'
     with fi_csv.open(encoding='utf-8-sig') as f:

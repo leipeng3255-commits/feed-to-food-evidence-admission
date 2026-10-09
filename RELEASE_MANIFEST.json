@@ -44,6 +44,11 @@
       "sha256": "79c9ebb403e29ff87ddb94122ed72b4b1a67cf9e2c9ff6cd52ecf857dbf5fb89"
     },
     {
+      "path": "11_research_branches/animal_food_feed_transfer/01_protocol/pdp_source_receipts_20261009.json",
+      "bytes": 731,
+      "sha256": "437c5a219e7f786d48c0f2e1e22e15ddd844e92b247eae353bb731a660711281"
+    },
+    {
       "path": "11_research_branches/animal_food_feed_transfer/01_protocol/study_protocol.md",
       "bytes": 4027,
       "sha256": "37063c35a663e147ab0e714eba225b3b9e802a6f6078ef36da6de42894fa0db5"
@@ -129,6 +134,11 @@
       "sha256": "f0fd95b8f1d8544a9074ba55bdce3906cf5669693610079c05f5bb1664849c77"
     },
     {
+      "path": "11_research_branches/animal_food_feed_transfer/05_code/build_multipanel_figures.py",
+      "bytes": 11630,
+      "sha256": "a9c523e35f17b6a82a752ed36054c67be89c75193735d2f9fcf783abadb2f2fd"
+    },
+    {
       "path": "11_research_branches/animal_food_feed_transfer/05_code/build_reproducibility_bundle.py",
       "bytes": 5445,
       "sha256": "833e317aec41d9c6c8d5e69279e374255b5c66b6668a72d326130f7035bcb7d4"
@@ -139,19 +149,24 @@
       "sha256": "e70efab4b1bfb868068b2747e3323ef1bb6ee4187c9cd79d6eb725f461259963"
     },
     {
+      "path": "11_research_branches/animal_food_feed_transfer/05_code/figure_quality.py",
+      "bytes": 2050,
+      "sha256": "f982dd532e9179f1cf0c23ae414ace1abf282bb9e8fab6ce749e479123b31cd2"
+    },
+    {
       "path": "11_research_branches/animal_food_feed_transfer/05_code/harmonise_pilot.py",
       "bytes": 8878,
       "sha256": "cfe811411763b16c7e5d968a58143d315073d5d9839dd62e2a305dd88fe54915"
     },
     {
       "path": "11_research_branches/animal_food_feed_transfer/05_code/information_loss_20261008.py",
-      "bytes": 12792,
-      "sha256": "7b8f5d1ef2779768b097000b64261bd6802db01eccee4c5c502556d5b6da0769"
+      "bytes": 13191,
+      "sha256": "514653259440a3760e321e1ed1f9ee0089fe11fa8065cdda8feedceaca48d4c0"
     },
     {
       "path": "11_research_branches/animal_food_feed_transfer/05_code/np_temporal_20261008.py",
-      "bytes": 14402,
-      "sha256": "08cdfa7c94ec687b34643c0a864423bca1d0794168653ab9548e874bcc76c17b"
+      "bytes": 14636,
+      "sha256": "8d3830428b52ff53ca3a652d4d0c2282de605306d3e35c569fa0bf7989d36a1e"
     },
     {
       "path": "11_research_branches/animal_food_feed_transfer/05_code/plot_information_loss.py",
@@ -162,6 +177,21 @@
       "path": "11_research_branches/animal_food_feed_transfer/05_code/plot_np_temporal.py",
       "bytes": 4659,
       "sha256": "dc8792bb4ecbb58ff1ba3409514faa280307bf4819a7658a625a11c818c4142a"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/05_code/publication_figures.py",
+      "bytes": 11407,
+      "sha256": "76f81ba8186ab9451f8f58d8a7d1672643eefbc19c1dbab38248232b94e2f274"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/05_code/reporting_counterexamples.py",
+      "bytes": 2462,
+      "sha256": "16508f622eeec6db609aeac36e83f020270e92969e3d1bc30b8f1f1208216bb6"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/05_code/reporting_reproduction.py",
+      "bytes": 1293,
+      "sha256": "d8ec828d29b58232cd240a8f5de80af9b798f2afb3c0d77085eaa9f3df6c7a29"
     },
     {
       "path": "11_research_branches/animal_food_feed_transfer/05_code/run_expanded_open_search.py",
@@ -184,6 +214,11 @@
       "sha256": "c1ea463cbe2695f9ab67e9de3200cd404150088b34e587f00343258b9955eeca"
     },
     {
+      "path": "11_research_branches/animal_food_feed_transfer/05_code/test_multipanel_figures.py",
+      "bytes": 3769,
+      "sha256": "c334289e08fd14c758483caeafe68a752933b69ebe8a2cec13047fee86865515"
+    },
+    {
       "path": "11_research_branches/animal_food_feed_transfer/05_code/test_np_temporal.py",
       "bytes": 4484,
       "sha256": "99214fcae15a565f518f3408690309e43321a0558097c7a7b793159b93ea16c0"
@@ -194,14 +229,69 @@
       "sha256": "18084df4a99df970d5a67bd8f83430d0506d98cdb56dc12818f83f6a36ba466b"
     },
     {
+      "path": "11_research_branches/animal_food_feed_transfer/05_code/test_reporting_revision.py",
+      "bytes": 2186,
+      "sha256": "514f6acf6ec0b4e7a5bd2b6a9a8dea75197bd576d0518e002d31541cc8bce908"
+    },
+    {
       "path": "11_research_branches/animal_food_feed_transfer/05_code/verify_np_aggregates.py",
       "bytes": 1385,
       "sha256": "51f48489ce2b7382d5f85dd477417b4e74cf5c759ecb792ce50369919118eac0"
     },
     {
+      "path": "11_research_branches/animal_food_feed_transfer/06_outputs/figures/figure1_noncompensatory_evidence_gate.svg",
+      "bytes": 15082,
+      "sha256": "a6a524a213337c360a1622d7cee9a48d5751dd10a7ad60be9a51a74e828cd82b"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/06_outputs/figures/figure1_noncompensatory_evidence_gate_layout_qa.json",
+      "bytes": 293,
+      "sha256": "6be90f04e348b63edb35c7ea9b0d013ee1a625a96dfd27405da92208ab299525"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/06_outputs/figures/figure2_selection_diagnostics.svg",
+      "bytes": 26593,
+      "sha256": "7b34b95e442e8d0b0a0aa902e125a4d8a63f1ce2cbaa0aca7bfbf6e823a52168"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/06_outputs/figures/figure2_selection_diagnostics_layout_qa.json",
+      "bytes": 293,
+      "sha256": "4394cb8bb54a6b1e19bcd145a20886982345567873be7d43cb1dc33e9d8b6c45"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/06_outputs/figures/figure3_result_semantics.svg",
+      "bytes": 54940,
+      "sha256": "79f2a00036c5888a5f46932d353030d1db0e405b6d63d67a9eb51ac4b8809f6a"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/06_outputs/figures/figure3_result_semantics_layout_qa.json",
+      "bytes": 293,
+      "sha256": "613dfc458cf3a8dffe2cbed3e6b0a685a3d00ca0e8466fdc71c9fab6958c1b98"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/06_outputs/figures/figure4_source_discrepancies.svg",
+      "bytes": 22637,
+      "sha256": "b7ebf5f0c830b065d2b7fe84a035634d16d4cb8a64df0817fa9775ded67ea82d"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/06_outputs/figures/figure4_source_discrepancies_layout_qa.json",
+      "bytes": 293,
+      "sha256": "6be90f04e348b63edb35c7ea9b0d013ee1a625a96dfd27405da92208ab299525"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/06_outputs/figures/multipanel_calculation_data.json",
+      "bytes": 3192,
+      "sha256": "f1399b56f4d8edb8989b32bf8be8ad563d0c4f7be2aa0206d4feb45b3db2470d"
+    },
+    {
       "path": "11_research_branches/animal_food_feed_transfer/08_review/primary_source_reconciliation_20260923.md",
       "bytes": 3819,
       "sha256": "f426d24102cdfdabbfd0905411955909979f36be407820917e80ccf9e3f07056"
+    },
+    {
+      "path": "11_research_branches/animal_food_feed_transfer/08_review/reference_count_and_citation_audit_20260930.json",
+      "bytes": 10711,
+      "sha256": "36acc5aa1b91c8f017fc073d87f874c949b01b08ade3ff2601d052c3b6e8a782"
     },
     {
       "path": "11_research_branches/animal_food_feed_transfer/08_review/validation_completion_assessment_20260923.md",
@@ -225,8 +315,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7327,
-      "sha256": "ab89a7d4cda92d2bf69b49b620108de60461ba26e74fe3bd1263e79668b2cbff"
+      "bytes": 7643,
+      "sha256": "8fa8bcc8e2f4e46ab0796a094a462f6dad7a9665e6ead57960669f2498a9161a"
     },
     {
       "path": "RELEASE_QA.json",
@@ -439,6 +529,31 @@
       "sha256": "0104729f93c9df66fabe227c88365b93b656cae1ebfee2b8ca9d42401c98a356"
     },
     {
+      "path": "extensions/reporting_revision_20261009/MANIFEST.json",
+      "bytes": 374,
+      "sha256": "26b6b36647409098ed0959665bc3a708ddf02160749ee96a1dcacb191b52ab91"
+    },
+    {
+      "path": "extensions/reporting_revision_20261009/README.md",
+      "bytes": 3499,
+      "sha256": "ae3c5d0c167659643b1dba2ebf6fa070757f0e812f41833d1e6019cc32be9728"
+    },
+    {
+      "path": "extensions/reporting_revision_20261009/SOURCE_REPRODUCTION_QA.json",
+      "bytes": 1620,
+      "sha256": "b19b2ed307e7c76f4e8819872a09ff1ad89223fe7a1c6eed6e1b95017842d374"
+    },
+    {
+      "path": "extensions/reporting_revision_20261009/counterexamples.json",
+      "bytes": 1671,
+      "sha256": "73369f20f519ea2e0f5e8b88513f2fb4435c75e659e6b221a474a7e60a95a85a"
+    },
+    {
+      "path": "extensions/reporting_revision_20261009/verify_extension.py",
+      "bytes": 1659,
+      "sha256": "e10c0df6618c936e1d900be63785e2cf1aa7ded7ee5840d9c1a4caad3f2cc87f"
+    },
+    {
       "path": "requirements-core.txt",
       "bytes": 100,
       "sha256": "2ef7556137bc52944bc444ebcb2ed2a3a0e7b68d5d8e7afc62beb841bf5a506b"
@@ -465,5 +580,9 @@
     "date": "2026-10-08",
     "scope": "conditional reporting-information arithmetic; no raw records/private manuscript",
     "manifest": "extensions/reporting_information_20261008/MANIFEST.json"
+  },
+  "reporting_revision": {
+    "date": "2026-10-09",
+    "scope": "synthetic examples, reporting reconstruction and explicit USDA-core reproduction; not scientific validation"
   }
 }

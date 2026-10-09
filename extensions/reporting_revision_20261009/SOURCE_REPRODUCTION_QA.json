@@ -1,0 +1,21 @@
+{
+  "status": "PASS_EXACT_CORE_REPRODUCTION",
+  "date": "2026-10-09",
+  "core_artifacts_identical": {
+    "information_loss_20261008/all_cells.csv": "71cfd0877a048edf28c4e98620500fc105a6cab263b4b8e702662db9938be566",
+    "information_loss_20261008/retained_interval_histograms.csv": "d46992809fc94a75d2d2b9862b76e712c87960e91da0373f2af3dfc0be3bda96",
+    "information_loss_20261008/summary.json": "45386f9ec594a00292f33c41269492016adee6af9a1b3542f5aa695509c41c6e",
+    "information_loss_20261008/protocol_sha256.txt": "b9fdd013353874871f4493753c73446d08a1fc84c938b8d5f5138b0e65cebfe0",
+    "np_temporal_20261008/NP_scenarios_all_cells.csv": "2413dd70246e9d686457c9afc833f971b3bff38e49dbf33619b0a97d90b723a2",
+    "np_temporal_20261008/filled_reporting_template.csv": "affbdf55cf7a4233e5e6a412319de3fbc1613b24b2bd79ecb6d049ddd8e02514",
+    "np_temporal_20261008/catfish_2010_cells.csv": "65e2b011c4837452cceb437a8eb1faf0b579cda59bd1061c9f0363ee21d64ced",
+    "np_temporal_20261008/catfish_2010_histograms.csv": "32b316a5746ba1b0a67714e3dc7939973e4cfe7aa1f60583cfd905275b5e9933",
+    "np_temporal_20261008/temporal_label_audit.csv": "7a0ba5576643b60c4318d8cd4cf5c76cdbf262059b9a5e3053b2e687f1a6782b",
+    "np_temporal_20261008/shared_label_cells.csv": "800c0d8acbe47ca3dd3160f3748dfcb34ba81dcb882b4451f35d12feed4e90e5",
+    "np_temporal_20261008/summary.json": "b6ce6daae4378114d14661c20f6b973db38d7f4727e5ddd9629e62d8d776974a"
+  },
+  "private_acquisition_ledger_used_in_public_mode": false,
+  "Finland_Australia_context_checks": "NOT_RUN_PDP_ONLY",
+  "raw_read_only": true,
+  "independent_scientific_validation": false
+}

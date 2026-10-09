@@ -1,0 +1,85 @@
+{
+  "status": "SYNTHETIC_CONSTRUCTIVE_EXAMPLES_NOT_EMPIRICAL_VALIDATION",
+  "threshold_convention": "Strictly greater than; ppb; illustrative, not safety limits",
+  "same_mean_different_threshold": {
+    "threshold_ppb": 10,
+    "cases": [
+      {
+        "LOD_ppb": [
+          1,
+          19
+        ],
+        "n": 2,
+        "mean_lower": 0.0,
+        "mean_upper": 10.0,
+        "fraction_lower": 0.0,
+        "fraction_upper": 0.5
+      },
+      {
+        "LOD_ppb": [
+          10,
+          10
+        ],
+        "n": 2,
+        "mean_lower": 0.0,
+        "mean_upper": 10.0,
+        "fraction_lower": 0.0,
+        "fraction_upper": 0.0
+      }
+    ]
+  },
+  "same_marginals_different_joint": {
+    "threshold_ppb": 2,
+    "cases": [
+      {
+        "paired_values_ppb": [
+          [
+            3,
+            3
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "n": 2,
+        "marginal_A": [
+          1,
+          3
+        ],
+        "marginal_B": [
+          1,
+          3
+        ],
+        "A_above": 0.5,
+        "B_above": 0.5,
+        "joint_above": 0.5
+      },
+      {
+        "paired_values_ppb": [
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "n": 2,
+        "marginal_A": [
+          1,
+          3
+        ],
+        "marginal_B": [
+          1,
+          3
+        ],
+        "A_above": 0.5,
+        "B_above": 0.5,
+        "joint_above": 0.0
+      }
+    ]
+  },
+  "scope": "Demonstrates losses under two specific summary maps. Not unique minimal statistics, statistical sufficiency, population identification or validation."
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "relative_raw_path": "usda_pdp/2009PDPDatabase.zip",
+    "sha256": "8a1cdaa6d76d9eb1e0b48c3c514e4d07f1bb4c2a9661cbb2d7b8b7c5609c213f",
+    "official_url": "https://www.ams.usda.gov/sites/default/files/media/2009PDPDatabase.zip",
+    "verification_basis": "Hash of original archived version used in the study; not a claim of provider-published SHA256"
+  },
+  {
+    "relative_raw_path": "usda_pdp/2010PDPDatabase.zip",
+    "sha256": "f285c1f403cfeb4f952a4310b4a712983c6ed023f7c7371821f7bd54d21c31e5",
+    "official_url": "https://www.ams.usda.gov/sites/default/files/media/2010PDPDatabase.zip",
+    "verification_basis": "Hash of original archived version used in the study; not a claim of provider-published SHA256"
+  }
+]

@@ -1,5 +1,6 @@
 """NP assumption sensitivity and fixed-rule temporal application; aggregate outputs."""
 from collections import Counter, defaultdict
+import argparse
 import csv
 import io
 import json
@@ -9,6 +10,7 @@ import subprocess
 import zipfile
 from information_loss_20261008 import (B, ROOT, paths, sha, finite, envelope, EDGES,
     COARSE, THRESHOLDS, metrics, assert_contains, write_csv, json_safe)
+from reporting_reproduction import source_receipt, output_root
 
 FACTORS = (1.,2.,5.,10.,math.inf)
 DETECTIONS = {'O','A','R'}
@@ -20,12 +22,10 @@ def in_ppb(value,unit):
     assert unit in UNITS
     return None if value is None else value*UNITS[unit]
 
-def archive(year, commodities):
+def archive(year, commodities, public_reproduction=False):
     c=paths();p=c['raw_data_root']/f'usda_pdp/{year}PDPDatabase.zip'
-    with (ROOT/'00_admin/download_manifest.csv').open(encoding='utf-8-sig') as f:receipts=list(csv.DictReader(f))
-    digest=sha(p)
-    matched=[r for r in receipts if r['local_file_path']==str(p) and r['sha256']==digest]
-    assert matched,p
+    receipt=source_receipt(p,c,public_reproduction)
+    digest=receipt['sha256']
     sample_info={};groups=defaultdict(list);flags=Counter();units=Counter();total=0;keys=set()
     with zipfile.ZipFile(p) as z:
         assert z.testzip() is None
@@ -61,7 +61,7 @@ def archive(year, commodities):
         if flags['R']:assert 'Detect - Re-extraction Analysis Value' in ref
         if flags['A']:assert 'Detect: Avg of Original & Re-extract' in ref
     assert sha(p)==digest
-    meta={'year':year,'source_sha256':digest,'official_url':matched[-1]['official_url'],
+    meta={'year':year,'source_sha256':digest,'official_url':receipt['official_url'],
           'relative_raw_path':str(p.relative_to(c['raw_data_root'])),'all_archive_rows':total,
           'all_archive_samples':len(sample_info),'selected_samples':dict(Counter(x for x in sample_info.values() if x in commodities)),
           'selected_flags':dict(flags),'original_units':dict(units),'source_cells':len(groups)}
@@ -173,15 +173,19 @@ def year_summary(cells):
     return out
 
 def main():
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--public-reproduction',action='store_true',help='Explicit fixed-PDP-receipt mode; fresh output subtree; run S4 in the same mode first')
+    args=parser.parse_args()
     subprocess.run(['python3',str(ROOT/'05_code/utilities/check_paths.py')],check=True,stdout=subprocess.DEVNULL)
-    out=paths()['animal_food_outputs_root']/'np_temporal_20261008';out.mkdir(parents=True,exist_ok=True)
-    g09,n09,m09=archive(2009,{'BA','BM','FC'});g10,n10,m10=archive(2010,{'FC'})
+    base=output_root(paths(),args.public_reproduction)
+    out=base/'np_temporal_20261008';out.mkdir(parents=True,exist_ok=not args.public_reproduction)
+    g09,n09,m09=archive(2009,{'BA','BM','FC'},args.public_reproduction);g10,n10,m10=archive(2010,{'FC'},args.public_reproduction)
     r09,report09=sensitivity(g09,n09,m09);r10,report10=sensitivity(g10,n10,m10)
     write_csv(out/'NP_scenarios_all_cells.csv',r09+r10)
     write_csv(out/'filled_reporting_template.csv',report09+report10)
     cells10,h10=temporal(g10,n10)
     write_csv(out/'catfish_2010_cells.csv',cells10);write_csv(out/'catfish_2010_histograms.csv',h10)
-    baseline=paths()['animal_food_outputs_root']/'information_loss_20261008/all_cells.csv'
+    baseline=base/'information_loss_20261008/all_cells.csv'
     with baseline.open() as f:prior09={r['analyte']:r for r in csv.DictReader(f) if r['commodity']=='FC'}
     cells09,_=temporal({k:rs for k,rs in g09.items() if k[0]=='FC'},n09)
     assert set(prior09)=={r['analyte'] for r in cells09}

@@ -67,3 +67,7 @@ Original code: MIT (`LICENSE`). Original protocol/method documentation: CC BY 4.
 ## 8 October reporting-information extension
 
 See [fixed rules, NP sensitivity, temporal repetition and target-specific reporting statistics](extensions/reporting_information_20261008/README.md). These are conditional arithmetic results, not exposure or full-chain validation.
+
+## 9 October reproducibility and reporting revision
+
+See [synthetic counterexamples, explicit frozen-source rerun and Figure1-4 reproduction](extensions/reporting_revision_20261009/README.md). Source reproduction is restricted to the USDA core and does not silently claim that contextual transcriptions were rerun.

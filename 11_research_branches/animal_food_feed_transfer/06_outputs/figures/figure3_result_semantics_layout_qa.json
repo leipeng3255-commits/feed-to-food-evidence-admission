@@ -1,0 +1,8 @@
+{
+  "text_objects": 58,
+  "canvas_overflow": [],
+  "text_box_collisions": [],
+  "minimum_source_font_pt": 8.0,
+  "minimum_at_6_5_inch_width_pt": 8.0,
+  "scope": "Renderer geometry check, complemented by visual inspection; not a guarantee of arbitrary font substitution or downstream edits."
+}
