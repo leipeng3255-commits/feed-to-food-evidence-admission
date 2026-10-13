@@ -1,0 +1,6 @@
+year,commodity,name,samples,analytical_rows,source_cells,working_cells,held_duplicate_cells,NP_rows,invalid_rows,working_rows,mean_unchanged,mean_widened,R1_unbounded,full_unbounded,R0_nonpoint_above_2,R1_nonpoint_above_2,R2_nonpoint_above_2,R0_nonpoint_above_10,R1_nonpoint_above_10,R2_nonpoint_above_10,R0_nonpoint_above_20,R1_nonpoint_above_20,R2_nonpoint_above_20
+2011,MK,Milk,743,141719,192,192,0,46,0,141673,186,6,0,1,136,137,192,33,36,192,16,20,192
+2011,EG,Eggs,371,39266,106,94,0,4392,0,34874,88,6,0,12,82,84,94,26,29,94,8,13,94
+2016,MK,Milk,708,311933,444,431,0,9708,0,302225,430,1,0,15,302,302,431,52,52,431,13,13,431
+2016,EG,Eggs,294,35045,123,113,0,3232,0,31813,112,1,0,11,112,112,113,112,113,113,112,113,113
+2017,MK,Milk,711,308026,438,427,0,7318,0,300708,425,2,0,11,298,299,427,47,47,427,10,10,427

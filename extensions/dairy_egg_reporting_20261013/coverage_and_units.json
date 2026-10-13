@@ -1,0 +1,40 @@
+{
+  "status": "PROVIDER_TOTALS_AND_UNIT_DEFINITIONS_CHECKED",
+  "unit_evidence": [
+    {
+      "year": 2011,
+      "dictionary_member": "PDP DataDictionary 2011.pdf",
+      "dictionary_page_1_based": 1,
+      "unit_field_excerpt": "CONUNIT              Text (1)      Concentration/LOD unit of measure (M=ppm, B=ppb, T=ppt)",
+      "converted_basis": "ppb",
+      "M_factor": 1000,
+      "B_factor": 1,
+      "T_factor": 0.001
+    },
+    {
+      "year": 2016,
+      "dictionary_member": "PDP DataDictionary 2016.pdf",
+      "dictionary_page_1_based": 1,
+      "unit_field_excerpt": "CONUNIT              Text (1)      Concentration/LOD unit of measure (M=ppm, B=ppb, T=ppt)",
+      "converted_basis": "ppb",
+      "M_factor": 1000,
+      "B_factor": 1,
+      "T_factor": 0.001
+    },
+    {
+      "year": 2017,
+      "dictionary_member": "PDP DataDictionary 2017.pdf",
+      "dictionary_page_1_based": 1,
+      "unit_field_excerpt": "CONUNIT              Text (1)      Concentration/LOD unit of measure (M=ppm, B=ppb, T=ppt)",
+      "converted_basis": "ppb",
+      "M_factor": 1000,
+      "B_factor": 1,
+      "T_factor": 0.001
+    }
+  ],
+  "denominator": "Observed analytical result records; never all possible sample-analyte pairs",
+  "coverage_cells": 1303,
+  "commodity_type_counts_unit": "Analytical result rows, not samples",
+  "analysis_code_sha256": "0f51f840845acc0939f573a4bb30770425d1206b00c2edb7575737958597a779",
+  "unobserved_combinations_imputed": false
+}

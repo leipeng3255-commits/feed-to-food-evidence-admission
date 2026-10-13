@@ -1,0 +1,14 @@
+{
+  "figure_inches": [
+    7.5,
+    7.7
+  ],
+  "minimum_font_pt": 8.5,
+  "minimum_font_at_6_5in_width_pt": 7.366666666666666,
+  "outside_text": [],
+  "text_bbox_collisions": [],
+  "native_svg_text": true,
+  "raster_images_in_svg": 0,
+  "visual_review": "REQUIRED_AFTER_RENDER",
+  "scope": "Aggregate reporting diagnostics, not validation"
+}

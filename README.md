@@ -75,3 +75,8 @@ See [synthetic counterexamples, explicit frozen-source rerun and Figure1-4 repro
 ## Portable supplementary checks
 
 [Standard-library S4/S5 verification](extensions/portable_supplement_checks_20261009/README.md) works directly on extracted journal reproduction bundles without project configuration, third-party Python modules, source data or network. It verifies integrity and conditional arithmetic, not scientific validity.
+
+
+## Dairy and egg reporting extension — 13 October 2026
+
+The [new extension](extensions/dairy_egg_reporting_20261013/README.md) adds milk/egg aggregate reporting diagnostics, Figure 8, a standard-library checker and negative fixtures. Its protocol, coverage audit and original analysis code are included. Aggregate-only checks do not establish standalone raw-source reproduction or scientific exposure validation. Earlier releases remain unchanged.

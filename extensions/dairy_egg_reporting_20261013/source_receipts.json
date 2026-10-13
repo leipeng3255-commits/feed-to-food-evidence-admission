@@ -1,0 +1,229 @@
+[
+  {
+    "year": 2011,
+    "file": "2011PDPDatabase.zip",
+    "relative_raw_path": "usda_pdp/2011PDPDatabase.zip",
+    "sha256": "1c911139e5549ba8c4441ccb626994c0c30ef389ef44b75e90c131a5571cc8a3",
+    "manifest_match": true,
+    "zip_crc": "PASS",
+    "sample_rows": 12737,
+    "reference_member": "PDP ReferenceTables 2011.pdf",
+    "dictionary_member": "PDP DataDictionary 2011.pdf",
+    "official_url": "https://www.ams.usda.gov/sites/default/files/media/2011PDPDatabase.zip",
+    "result_member": "PDP11Results.txt",
+    "programme_result_rows": 2098808,
+    "selected_unit_counts": {
+      "M": 180985
+    },
+    "selected_state_counts": {
+      "NP": 4438,
+      "ND": 176518,
+      "O": 29
+    },
+    "instruction_member": "INSTRUCTIONS 2011.pdf",
+    "provider_programme_totals": "PASS",
+    "source_hash_after": "1c911139e5549ba8c4441ccb626994c0c30ef389ef44b75e90c131a5571cc8a3",
+    "unit_semantics_checked": true,
+    "commodity_type_result_counts": {
+      "EG/EL": 30056,
+      "EG/EX": 2541,
+      "EG/EM": 4550,
+      "EG/EJ": 2119,
+      "MK/RE": 141719
+    }
+  },
+  {
+    "year": 2012,
+    "file": "2012PDPDatabase.zip",
+    "relative_raw_path": "usda_pdp/2012PDPDatabase.zip",
+    "sha256": "18e3231b95014732c6343f6329f5c999604c4e0de1e3d294486beb035f76f79c",
+    "manifest_match": true,
+    "zip_crc": "PASS",
+    "sample_rows": 12546,
+    "reference_member": "PDP ReferenceTables 2012.pdf",
+    "dictionary_member": "PDP DataDictionary 2012.pdf",
+    "official_url": "https://www.ams.usda.gov/sites/default/files/media/2012PDPDatabase.zip"
+  },
+  {
+    "year": 2013,
+    "file": "2013PDPDatabase.zip",
+    "relative_raw_path": "usda_pdp/2013PDPDatabase.zip",
+    "sha256": "529c06572b2399124186cbbc52e90f2b42f62de637eaf99a279d583f96e02117",
+    "manifest_match": true,
+    "zip_crc": "PASS",
+    "sample_rows": 10104,
+    "reference_member": "PDP ReferenceTables 2013.pdf",
+    "dictionary_member": "PDP DataDictionary 2013.pdf",
+    "official_url": "https://www.ams.usda.gov/sites/default/files/media/2013PDPDatabase.zip"
+  },
+  {
+    "year": 2014,
+    "file": "2014PDPDatabase.zip",
+    "relative_raw_path": "usda_pdp/2014PDPDatabase.zip",
+    "sha256": "2f91e71b55e17296efb500db4ca03829d724ec0393767d048f95fc233dafae5c",
+    "manifest_match": true,
+    "zip_crc": "PASS",
+    "sample_rows": 10619,
+    "reference_member": "PDP ReferenceTables 2014.pdf",
+    "dictionary_member": "PDP DataDictionary 2014.pdf",
+    "official_url": "https://www.ams.usda.gov/sites/default/files/media/2014PDPDatabase.zip"
+  },
+  {
+    "year": 2015,
+    "file": "2015PDPDatabase.zip",
+    "relative_raw_path": "usda_pdp/2015PDPDatabase.zip",
+    "sha256": "2d8ed326f459785573b81c51849cd74dfaaa9e393f808cd4d9e8925fb9e5f82a",
+    "manifest_match": true,
+    "zip_crc": "PASS",
+    "sample_rows": 10187,
+    "reference_member": "PDP ReferenceTables 2015.pdf",
+    "dictionary_member": "PDP DataDictionary 2015.pdf",
+    "official_url": "https://www.ams.usda.gov/sites/default/files/media/2015PDPDatabase.ZIP"
+  },
+  {
+    "year": 2016,
+    "file": "2016PDPDatabase.zip",
+    "relative_raw_path": "usda_pdp/2016PDPDatabase.zip",
+    "sha256": "9bbdfb5cbe52dd3d200dd5fe7a726e896da604c09e14edeecbbba9484c06a01d",
+    "manifest_match": true,
+    "zip_crc": "PASS",
+    "sample_rows": 10365,
+    "reference_member": "PDP ReferenceTables 2016.pdf",
+    "dictionary_member": "PDP DataDictionary 2016.pdf",
+    "official_url": "https://www.ams.usda.gov/sites/default/files/media/2016PDPDatabase.ZIP",
+    "result_member": "PDP16Results.txt",
+    "programme_result_rows": 2455487,
+    "selected_unit_counts": {
+      "M": 346978
+    },
+    "selected_state_counts": {
+      "NP": 12940,
+      "ND": 334018,
+      "O": 20
+    },
+    "instruction_member": "INSTRUCTIONS 2016.pdf",
+    "provider_programme_totals": "PASS",
+    "source_hash_after": "9bbdfb5cbe52dd3d200dd5fe7a726e896da604c09e14edeecbbba9484c06a01d",
+    "unit_semantics_checked": true,
+    "commodity_type_result_counts": {
+      "EG/EL": 25506,
+      "EG/EX": 3576,
+      "EG/EJ": 1433,
+      "EG/EM": 4530,
+      "MK/RE": 311933
+    }
+  },
+  {
+    "year": 2017,
+    "file": "2017PDPDatabase.zip",
+    "relative_raw_path": "usda_pdp/2017PDPDatabase.zip",
+    "sha256": "5f3f2ca8b11e95f9553c5975ef1ee012af9be6c64d14a49a75c468689aca81c8",
+    "manifest_match": true,
+    "zip_crc": "PASS",
+    "sample_rows": 10541,
+    "reference_member": "PDP ReferenceTables 2017.pdf",
+    "dictionary_member": "PDP DataDictionary 2017.pdf",
+    "official_url": "https://www.ams.usda.gov/sites/default/files/media/2017PDPDatabase.ZIP",
+    "result_member": "PDP17Results.txt",
+    "programme_result_rows": 2502346,
+    "selected_unit_counts": {
+      "M": 308026
+    },
+    "selected_state_counts": {
+      "ND": 300695,
+      "NP": 7318,
+      "O": 13
+    },
+    "instruction_member": "INSTRUCTIONS 2017.pdf",
+    "provider_programme_totals": "PASS",
+    "source_hash_after": "5f3f2ca8b11e95f9553c5975ef1ee012af9be6c64d14a49a75c468689aca81c8",
+    "unit_semantics_checked": true,
+    "commodity_type_result_counts": {
+      "MK/RE": 308026
+    }
+  },
+  {
+    "year": 2018,
+    "file": "2018PDPDatabase.zip",
+    "relative_raw_path": "usda_pdp/2018PDPDatabase.zip",
+    "sha256": "b28857d6c5ebacbcdb568162e3e6c60f566d890b39aaea96ba6a0b1aeaae9e66",
+    "manifest_match": true,
+    "zip_crc": "PASS",
+    "sample_rows": 10545,
+    "reference_member": "PDP ReferenceTables 2018.pdf",
+    "dictionary_member": "PDP DataDictionary 2018.pdf",
+    "official_url": "https://www.ams.usda.gov/sites/default/files/media/2018PDPDatabase.zip"
+  },
+  {
+    "year": 2019,
+    "file": "2019PDPDatabase.zip",
+    "relative_raw_path": "usda_pdp/2019PDPDatabase.zip",
+    "sha256": "42c8721b755243a191199d9a9b357c722db945cb50a3ae058d2527499385358c",
+    "manifest_match": true,
+    "zip_crc": "PASS",
+    "sample_rows": 9697,
+    "reference_member": "PDP ReferenceTables 2019.pdf",
+    "dictionary_member": "PDP DataDictionary 2019.pdf",
+    "official_url": "https://www.ams.usda.gov/sites/default/files/media/2019PDPDatabase.zip"
+  },
+  {
+    "year": 2020,
+    "file": "2020PDPDatabase.zip",
+    "relative_raw_path": "usda_pdp/2020PDPDatabase.zip",
+    "sha256": "368df506a1ecb23ac6e77dc2beb76c14655ab828c9f6ad794fd6b0cc41168085",
+    "manifest_match": true,
+    "zip_crc": "PASS",
+    "sample_rows": 9600,
+    "reference_member": "PDP ReferenceTables 2020.pdf",
+    "dictionary_member": "PDP DataDictionary 2020.pdf",
+    "official_url": "https://www.ams.usda.gov/sites/default/files/media/2020PDPDatabase.zip"
+  },
+  {
+    "year": 2021,
+    "file": "2021PDPDatabase.zip",
+    "relative_raw_path": "usda_pdp/2021PDPDatabase.zip",
+    "sha256": "5d66c6b7d6fa6184146e313fd5b73652661e66d6c814289648398a68ea473980",
+    "manifest_match": true,
+    "zip_crc": "PASS",
+    "sample_rows": 10127,
+    "reference_member": "PDP ReferenceTables 2021.pdf",
+    "dictionary_member": "PDP DataDictionary 2021.pdf",
+    "official_url": "https://www.ams.usda.gov/sites/default/files/media/2021PDPDatabase.zip"
+  },
+  {
+    "year": 2022,
+    "file": "2022PDPDatabase.zip",
+    "relative_raw_path": "usda_pdp/2022PDPDatabase.zip",
+    "sha256": "9e599c741c6122d1ea7f6ec7ed0509ed5c2dbe34084cd5531b05303cafa433af",
+    "manifest_match": true,
+    "zip_crc": "PASS",
+    "sample_rows": 10665,
+    "reference_member": "PDP ReferenceTables 2022.pdf",
+    "dictionary_member": "PDP DataDictionary 2022.pdf",
+    "official_url": "https://www.ams.usda.gov/sites/default/files/media/2022PDPDatabase.zip"
+  },
+  {
+    "year": 2023,
+    "file": "2023PDPDatabase.zip",
+    "relative_raw_path": "usda_pdp/2023PDPDatabase.zip",
+    "sha256": "10bad42c5673517c0268fe80a789bcddbb58c5c08b80e9fb1ea1fba56be8a0a0",
+    "manifest_match": true,
+    "zip_crc": "PASS",
+    "sample_rows": 9832,
+    "reference_member": "PDP ReferenceTables 2023.pdf",
+    "dictionary_member": "PDP DataDictionary 2023.pdf",
+    "official_url": "https://www.ams.usda.gov/sites/default/files/media/2023PDPDatabase.zip"
+  },
+  {
+    "year": 2024,
+    "file": "2024PDPDatabase.zip",
+    "relative_raw_path": "other/2024PDPDatabase.zip",
+    "sha256": "de916ba119f8d6dd5a4d5596c69b00c476fceeb31a96b1389dd005031c9c4d79",
+    "manifest_match": true,
+    "zip_crc": "PASS",
+    "sample_rows": 9872,
+    "reference_member": "PDP ReferenceTables 2024.pdf",
+    "dictionary_member": "PDP DataDictionary 2024.pdf",
+    "official_url": "https://www.ams.usda.gov/sites/default/files/media/2024PDPDatabase.zip"
+  }
+]

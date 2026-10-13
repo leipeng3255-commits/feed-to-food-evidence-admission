@@ -1,0 +1,115 @@
+{
+  "scope": "aggregate-only checks plus separately configured raw-analysis code",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3462,
+      "sha256": "c98e28641ed020a31b0dc262bb4172d6c03d2fb0ecb7275f39dd071a3ffae7a8"
+    },
+    {
+      "path": "all_cells.csv",
+      "bytes": 240560,
+      "sha256": "9e2be129838ed69a0efbed3512896b862ca5b0fde4ddfef18e6f74d0d32c0f06"
+    },
+    {
+      "path": "availability.csv",
+      "bytes": 1460,
+      "sha256": "a27a47281cffa319b4856207095c90a25756d013ffdece11de08b081ad89a6c8"
+    },
+    {
+      "path": "coverage.csv",
+      "bytes": 49752,
+      "sha256": "955bd68dd7791715fc25b148b18e74cfe4e0bfe26d63a47b86d6bf6916921a90"
+    },
+    {
+      "path": "coverage_and_units.json",
+      "bytes": 1469,
+      "sha256": "94da93ce3820945612ece10dea86396c500c6fa57bfae56ecfe90e370a980136"
+    },
+    {
+      "path": "figures/figure8_dairy_egg_layout_qa.json",
+      "bytes": 341,
+      "sha256": "dbeda8bd416a5d8d8c343b90b6ce9e7082c57fa65e6d71f47fb46b67bc293494"
+    },
+    {
+      "path": "figures/figure8_dairy_egg_plot_metrics.json",
+      "bytes": 4827,
+      "sha256": "ff9ceb57d220cfce4def3bfcb6fc3a926d022d32b0f3ac236df5ea539ee58f27"
+    },
+    {
+      "path": "figures/figure8_dairy_egg_reporting.svg",
+      "bytes": 33859,
+      "sha256": "fd62e1bccef1e2d6943f260815317b9ea4d8f8f76ed244687f065bece77df0c4"
+    },
+    {
+      "path": "filled_reporting_statistics.csv",
+      "bytes": 174535,
+      "sha256": "6b58774cda2b492cd6a3ede815db69fce3fc8f19533f791c36dc5df3b89062c5"
+    },
+    {
+      "path": "protocol_sha256.txt",
+      "bytes": 65,
+      "sha256": "52384f35fafc6a04257fc4fab017054a9d971efe2c15885bfb8fefcd71e9be21"
+    },
+    {
+      "path": "retained_histograms.csv",
+      "bytes": 111193,
+      "sha256": "35089268f1e5cf20a54da81215ac9ed015c5f29b388c5f42cf177fe06aa12684"
+    },
+    {
+      "path": "source_project/05_code/utilities/check_paths.py",
+      "bytes": 821,
+      "sha256": "0837964050d5fe6a7bb463315fb10dc8b8d90b94ee6ad6da6f8c2d59e6b83f69"
+    },
+    {
+      "path": "source_project/11_research_branches/animal_food_feed_transfer/01_protocol/dairy_egg_reporting_extension_20261013.md",
+      "bytes": 4496,
+      "sha256": "3e4271673442894410ce36d9b008d1b2cef8a6c47ad52f6d95a8bf0d3dbdb38a"
+    },
+    {
+      "path": "source_project/11_research_branches/animal_food_feed_transfer/05_code/dairy_egg_reporting_20261013.py",
+      "bytes": 14877,
+      "sha256": "0f51f840845acc0939f573a4bb30770425d1206b00c2edb7575737958597a779"
+    },
+    {
+      "path": "source_project/11_research_branches/animal_food_feed_transfer/05_code/information_loss_20261008.py",
+      "bytes": 13191,
+      "sha256": "514653259440a3760e321e1ed1f9ee0089fe11fa8065cdda8feedceaca48d4c0"
+    },
+    {
+      "path": "source_project/11_research_branches/animal_food_feed_transfer/05_code/plot_dairy_egg_20261013.py",
+      "bytes": 9814,
+      "sha256": "da5f1a2b1f5fd8825b2bbca5248c4ad4566f67e007e10ed31190edb3332fc040"
+    },
+    {
+      "path": "source_project/11_research_branches/animal_food_feed_transfer/05_code/reporting_reproduction.py",
+      "bytes": 1293,
+      "sha256": "d8ec828d29b58232cd240a8f5de80af9b798f2afb3c0d77085eaa9f3df6c7a29"
+    },
+    {
+      "path": "source_receipts.json",
+      "bytes": 8465,
+      "sha256": "077061d4ec04fb374562c32c401f5ff6fea3dc31b29a389555445676ddce3117"
+    },
+    {
+      "path": "stratum_summary.csv",
+      "bytes": 818,
+      "sha256": "bffd04a3d92bba33f2a05b65f661f64538673afec93639fec83bdca7fb34bea4"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 4055,
+      "sha256": "5cb16d092e46c44b79b28f9b74828e84439efd07644a9ce211555b5bdfa2fe8c"
+    },
+    {
+      "path": "test_dairy_egg_verifier.py",
+      "bytes": 4606,
+      "sha256": "cf7882444eeab22e836967919c8a44d65d45dac3bd75d01aee36ac7e29bef28f"
+    },
+    {
+      "path": "verify_dairy_egg_bundle.py",
+      "bytes": 12566,
+      "sha256": "789e6925c8098420cedd173928c7fcad0ea7e7f2d5c3a3c89219d78eff7556d1"
+    }
+  ]
+}
